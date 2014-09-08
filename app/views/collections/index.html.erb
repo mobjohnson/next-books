@@ -2,6 +2,9 @@ Here are your collections!
 <% @collections.each do |c| %>
 	<div>
 		<%= c.name  %>	
+		<%= link_to 'View', collection_path(c)  %>
+		<%= link_to 'Edit', edit_collection_path(c) %>
+		<% link_to 'Delete', c, method: :delete %>
 
 	</div>
 

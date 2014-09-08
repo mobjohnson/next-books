@@ -8,6 +8,8 @@
 </head>
 <body>
 	<header>
+		<h2>NextBooks</h2>
+		<h3>The app that tells you the Next Books you should read</h3>
 		<h4><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></h4>
 		<h5><%= link_to 'Collections', collections_path  %></h5>
 		<%= link_to 'New Collection', new_collection_path %>

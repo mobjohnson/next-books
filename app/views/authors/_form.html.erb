@@ -1,0 +1,11 @@
+Here are your authors!
+<% @authors.each do |c| %>
+	<div>
+		<%= c.name  %>	
+		<%= link_to 'View', author_path(c)  %>
+		<%= link_to 'Edit', edit_author_path(c) %>
+		<% link_to 'Delete', c, method: :delete %>
+
+	</div>
+
+<% end %>

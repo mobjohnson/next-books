@@ -3,6 +3,6 @@ class Collection < ActiveRecord::Base
 	belongs_to :user
 	has_many :books, through: :author
 
-	validates_associated :user
-	validates_associated :author
+	# validates_associated :user
+	# validates_associated :author
 end
