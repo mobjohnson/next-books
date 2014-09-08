@@ -7,6 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<h4><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></h4>
+		<h5><%= link_to 'Collections', collections_path  %></h5>
+		<%= link_to 'New Collection', new_collection_path %>
+	</header>
+
+
 	 <p class="notice"><%= notice %></p>
    <p class="alert"><%= alert %></p>
 
