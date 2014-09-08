@@ -2,8 +2,8 @@ class CreateCollections < ActiveRecord::Migration
   def change
     create_table :collections do |t|
       t.string :name
-      t.integer :user_id
-      t.integer :author_id
+      t.references :user, index: true
+      t.references :author, index: true
     end
   end
 end

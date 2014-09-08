@@ -1,11 +1,9 @@
-Here are your authors!
-<% @authors.each do |c| %>
-	<div>
-		<%= c.name  %>	
-		<%= link_to 'View', author_path(c)  %>
-		<%= link_to 'Edit', edit_author_path(c) %>
-		<% link_to 'Delete', c, method: :delete %>
-
-	</div>
-
-<% end %>
+<%= form_for([@collection, @collection.authors.build]) do |f| %>
+	<p>
+		<%= f.label :name %><br>
+		<%= f.text_field :name %>
+	</p>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>	

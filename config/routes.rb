@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-root 'collections#index'
-resources :collections
-resources :authors
+  root 'collections#index'
+  resources :collections do
+    resources :authors
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

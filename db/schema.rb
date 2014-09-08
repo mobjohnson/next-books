@@ -22,6 +22,9 @@ ActiveRecord::Schema.define(version: 20140908144944) do
     t.integer "book_id"
   end
 
+  add_index "authors", ["book_id"], name: "index_authors_on_book_id", using: :btree
+  add_index "authors", ["collection_id"], name: "index_authors_on_collection_id", using: :btree
+
   create_table "books", force: true do |t|
     t.string  "title"
     t.string  "date"
@@ -31,11 +34,16 @@ ActiveRecord::Schema.define(version: 20140908144944) do
     t.integer "author_id"
   end
 
+  add_index "books", ["author_id"], name: "index_books_on_author_id", using: :btree
+
   create_table "collections", force: true do |t|
     t.string  "name"
     t.integer "user_id"
     t.integer "author_id"
   end
+
+  add_index "collections", ["author_id"], name: "index_collections_on_author_id", using: :btree
+  add_index "collections", ["user_id"], name: "index_collections_on_user_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -48,10 +56,10 @@ ActiveRecord::Schema.define(version: 20140908144944) do
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer  "author_id"
   end
 
+  add_index "users", ["author_id"], name: "index_users_on_author_id", using: :btree
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
