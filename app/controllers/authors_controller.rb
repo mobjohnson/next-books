@@ -1,8 +1,6 @@
 class AuthorsController < ApplicationController
 	before_action :authenticate_user!, except: [:show, :index]
 
-
-
 	def create
 		@collection = Collection.find(params[:collection_id])
 		@author = @collection.authors.create(author_params)
@@ -19,7 +17,7 @@ class AuthorsController < ApplicationController
 	private
 
 	def author_params
-		params.require(:author).permit(:name) #, :user_id, :author_id)
+		params.require(:author).permit(:name) 
 	end
 
 end

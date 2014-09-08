@@ -19,7 +19,7 @@ class CollectionsController < ApplicationController
 	end
 
 	def create
-		@collection = Collection.new(collection_params)
+		@collection = Collection.new(collection_params.merge(user_id: current_user.id))
 		if @collection.save
 			redirect_to @collection
 		else
@@ -45,7 +45,7 @@ class CollectionsController < ApplicationController
 	private
 
 	def collection_params
-		params.require(:collection).permit(:name, :user_id, :author_id)
+		params.require(:collection).permit(:name)
 	end
 	
 end
