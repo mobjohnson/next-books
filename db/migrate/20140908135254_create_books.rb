@@ -6,7 +6,6 @@ class CreateBooks < ActiveRecord::Migration
       t.string :synopsis
       t.string :cover_id
       t.string :isbn
-      t.references :author, index: true
     end
   end
 end

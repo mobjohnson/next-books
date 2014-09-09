@@ -16,15 +16,6 @@ class BooksController < ApplicationController
 		redirect_to author_path(@author)
 	end
 
-	def find_books
-		@author = Author.find(params[:author_id])
-		@key = JBdCSEmPL5uPlM3IYj4lw
-		@name = @author.name
-		@request = "https://www.goodreads.com/search.xml?key=#{@key}&q=#{@name}"
-		@response = HTTParty.get "http://www.example.org/?json=get_recent_posts"
-		p @response
-	end
-
 	private
 
 	def book_params

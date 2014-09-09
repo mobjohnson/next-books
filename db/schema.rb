@@ -19,30 +19,23 @@ ActiveRecord::Schema.define(version: 20140908144944) do
   create_table "authors", force: true do |t|
     t.string  "name"
     t.integer "collection_id"
-    t.integer "book_id"
   end
 
-  add_index "authors", ["book_id"], name: "index_authors_on_book_id", using: :btree
   add_index "authors", ["collection_id"], name: "index_authors_on_collection_id", using: :btree
 
   create_table "books", force: true do |t|
-    t.string  "title"
-    t.string  "date"
-    t.string  "synopsis"
-    t.string  "cover_id"
-    t.string  "isbn"
-    t.integer "author_id"
+    t.string "title"
+    t.string "date"
+    t.string "synopsis"
+    t.string "cover_id"
+    t.string "isbn"
   end
-
-  add_index "books", ["author_id"], name: "index_books_on_author_id", using: :btree
 
   create_table "collections", force: true do |t|
     t.string  "name"
     t.integer "user_id"
-    t.integer "author_id"
   end
 
-  add_index "collections", ["author_id"], name: "index_collections_on_author_id", using: :btree
   add_index "collections", ["user_id"], name: "index_collections_on_user_id", using: :btree
 
   create_table "users", force: true do |t|

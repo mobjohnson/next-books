@@ -42,4 +42,6 @@ gem 'devise'
 
 gem 'json'
 
+gem 'httparty'
+
 
