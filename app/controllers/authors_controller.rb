@@ -14,20 +14,18 @@ class AuthorsController < ApplicationController
 		redirect_to collection_path(@collection)
 	end
 
-	def self.find_books
-		# @collection = Collection.find(params[:collection_id])
-		# @author = @collection.authors.find(params[:id])
-		@collection = Collection.first
-		@author = @collection.authors.first
-		@key = 'JBdCSEmPL5uPlM3IYj4lw'
-		@name = @author.name.gsub(' ', '%20')
- 		@request = "https://www.goodreads.com/search.xml?format=json&key=#{@key}&q=#{@name}"
-		@response = HTTParty.get "#{@request}"
+	# def self.find_books
+	# 	# @collection = Collection.find(params[:collection_id])
+	# 	# @author = @collection.authors.find(params[:id])
+	# 	@collection = Collection.first
+	# 	@author = @collection.authors.first
+	# 	@key = 'JBdCSEmPL5uPlM3IYj4lw'
+	# 	@name = @author.name.gsub(' ', '%20')
+ # 		@request = "https://www.goodreads.com/search.xml?format=json&key=#{@key}&q=#{@name}"
+	# 	@response = HTTParty.get "#{@request}"
 
-
-
-		# p @response
-	end
+	# 	# p @response
+	# end
 
 	private
 
