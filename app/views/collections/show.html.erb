@@ -1,19 +1,9 @@
 <div>
 	<h4>Here is your Collection</h4>
 	<h2><%= @collection.name %></h2>
-
-
-	<h4>Authors</h2>
 	<%= render @collection.authors %>
-
 	<h4>Add an Author:</h4>
 	<%= render 'authors/form' %>
-
-
-
-
 	<%= link_to 'Edit', edit_collection_path(@collection) %>
 	<%= link_to 'Delete', @collection, method: :delete %>
-
-
 </div>

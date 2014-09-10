@@ -1,6 +1,7 @@
 
-Title: <%= @book.title %>
-Year: <%= @book.date %>
+Title: <%= @book.title %>; 
+Year: <%= @book.date %>; 
+Status: <%= @book.status %>
 <%= form_for [@collection, @author, @book] do |f| %>
 	<p>
 

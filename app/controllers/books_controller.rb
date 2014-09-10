@@ -1,19 +1,17 @@
 class BooksController < ApplicationController
 
-	def edit 
+	def edit
+		@collection = Collection.find(params[:collection_id])
 		@author = Author.find(params[:author_id])		
 		@book = Book.find(params[:id])
-		# redirect_to author_path(@author)
-
-		redirect_to collection_path(@collection)
 	end
 
 	def update
+		@collection = Collection.find(params[:collection_id])
 		@author = Author.find(params[:author_id])	
-		@book = @author.books.update(book_params)
-		# @book.update
+ 	  @book = Book.find(params[:id])
+		@book.update(status: params[:status])
 		redirect_to collection_path(@collection)
-
 	end
 
 
