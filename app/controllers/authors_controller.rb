@@ -4,7 +4,7 @@ class AuthorsController < ApplicationController
 	def create
 		@collection = Collection.find(params[:collection_id])
 		@author = @collection.authors.create(author_params)
-		# redirect_to collection_path(@collection)
+	  redirect_to collection_path(@collection)
 	end
 
 	def destroy
