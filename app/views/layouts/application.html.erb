@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>NextBooks</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,16 +11,14 @@
 	<header>
 		<h3>NextBooks</h3>
 		<h5>The app that tells you the Next Books you should read</h5>
-		<h5><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></h5>
+		<nav><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></nav>
 		<h5><%= link_to 'Collections', collections_path  %></h5>
 		<%= link_to 'New Collection', new_collection_path %>
 	</header>
-
-
-	 <p class="notice"><%= notice %></p>
-   <p class="alert"><%= alert %></p>
-
-<%= yield %>
-
+	<section>
+		<p class="notice"><%= notice %></p>
+  	<p class="alert"><%= alert %></p>
+		<%= yield %>
+	</section>
 </body>
 </html>

@@ -1,0 +1,33 @@
+* {
+	color: #4E4C59;
+}
+
+body {	
+	background-color: #7F57F0;
+}
+
+header {
+	background-color: #05FCBE;
+}
+
+
+section {	
+	background-color: #05FCF4;
+}
+
+.title {
+	width: 65em;
+	padding: 2px;
+	margin: 0 10px;
+}
+
+.date, .status {
+	width: 15em;
+	padding: 2px;
+	margin: 0 10px;
+
+}
+
+#recommend {
+
+}
