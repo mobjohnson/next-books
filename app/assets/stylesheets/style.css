@@ -17,13 +17,13 @@ section {
 
 .title {
 	width: 65em;
-	padding: 2px;
+	padding: 2px 2px;
 	margin: 0 10px;
 }
 
-.date, .status {
+.date, .status, .link {
 	width: 15em;
-	padding: 2px;
+	padding: 2px 2px;
 	margin: 0 10px;
 
 }

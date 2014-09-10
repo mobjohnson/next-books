@@ -22,7 +22,7 @@
 	      <td class='title'><%= book.title %></td>
 				<td class='date'><%= book.date %></td>
 				<td class= 'status'><%= book.status %></td>
-				<td><%= link_to 'Edit Status', edit_collection_author_book_path(@collection, author, book) %></td>
+				<td class='link'><%= link_to 'Edit Status', edit_collection_author_book_path(@collection, author, book) %></td>
 			  </tr>
 	  <% end %>
 	</table>
