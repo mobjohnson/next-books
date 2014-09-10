@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   root 'collections#index'
   devise_for :users
   resources :collections do
-    resources :authors do
-      resources :books
+    resources :authors do #, :only => [:create, :destroy]
+        resources :books #, :only => [:create, :update, :destroy, :edit]
     end
   end
 

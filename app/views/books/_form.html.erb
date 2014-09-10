@@ -1,0 +1,17 @@
+
+Title: <%= @book.title %>
+Year: <%= @book.date %>
+<%= form_for [@collection, @author, @book] do |f| %>
+	<p>
+
+		<%= radio_button_tag(:status, "read") %>
+		<%= label_tag(:status_read, "I have Read this book") %>
+		<%= radio_button_tag(:status, "not read") %>
+		<%= label_tag(:status_not_read, "I have not Read this book") %>
+		<%= radio_button_tag(:status, "skip") %>
+		<%= label_tag(:status_skip, "I will skip this book") %>
+	</p>
+	<p>
+		<%= f.submit 'Submit Status' %>
+	</p>
+<% end %>	

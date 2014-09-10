@@ -1,13 +1,18 @@
 <p>
-	author partial
 	Name: <%= author.name %> 
 </p>
 
-<p>
+<h4>   Books:</h4>
+<% author.books.each do |book| %>
+	<p>Title: <%= book.title %>;
+	Date: <%= book.date %>;
+	Status: <%= book.status %>
+	<%= link_to 'Edit Book Status', edit_collection_author_book_path(@collection, author, book) %>
+</p>
+<% end %>
 	
+<p>
   <%= link_to 'Destroy Author', [author.collection, author],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>
-
-  <%#= render author.books %>
 </p>

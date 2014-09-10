@@ -40,8 +40,8 @@ gem 'spring',        group: :development
 
 gem 'devise'
 
-gem 'json'
-
 gem 'httparty'
+
+gem 'pry'
 
 

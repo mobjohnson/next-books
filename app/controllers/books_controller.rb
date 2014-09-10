@@ -1,10 +1,24 @@
 class BooksController < ApplicationController
 
-	# require 'json/add/rails'
+	def edit 
+		@author = Author.find(params[:author_id])		
+		@book = Book.find(params[:id])
+		# redirect_to author_path(@author)
+
+		redirect_to collection_path(@collection)
+	end
+
+	def update
+		@author = Author.find(params[:author_id])	
+		@book = @author.books.update(book_params)
+		# @book.update
+		redirect_to collection_path(@collection)
+
+	end
+
 
 	def create
 		@author = Author.find(params[:author_id])
-		find_books
 		@book = @author.books.create(book_params)
 		redirect_to author_path(@author)
 	end
@@ -19,7 +33,7 @@ class BooksController < ApplicationController
 	private
 
 	def book_params
-		params.require(:book).permit(:title, :date, :synopsis, :cover_id, :isbn) 
+		params.require(:book).permit(:title, :date, :status) 
 	end
 
 end
