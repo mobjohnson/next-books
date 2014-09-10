@@ -20,4 +20,18 @@ class Author < ActiveRecord::Base
 			@book = Book.create(title: @book_title, date: @book_year, status: @book_status, author_id: @author)
 		end
 	end
+
+	def self.find_book(author)
+		@books = author.books
+		@books = @books.sort_by {|book|	book.date}
+		@flag = 'start'
+		@books.each do |book|
+			if book.status == 'not read' && @flag == 'start'
+				@flag = 'finish'
+				@next_book = book
+			end
+		end
+		@next_book
+	end
+
 end

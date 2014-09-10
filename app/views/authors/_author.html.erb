@@ -7,23 +7,23 @@
                data: { confirm: 'Are you sure?' } %>
 </p>
 
-<h4>   Books:</h4>
+<h4>Next Book you should Read:</h4>
+<%= Author.find_book(author).title %>
+
+
 <table>
   <tr>
     <th>Title</th>
     <th>Date</th>
     <th>Status</th>
     <th></th>
-  </tr>
-
-
-	
+  </tr>	
 	<% author.books.each do |book| %>
 		<tr>
       <td><%= book.title %></td>
 			<td><%= book.date %></td>
 			<td><%= book.status %></td>
-			<td><%= link_to 'Edit Book Status', edit_collection_author_book_path(@collection, author, book) %></td>
+			<td><%= link_to 'Edit Status', edit_collection_author_book_path(@collection, author, book) %></td>
 		  </tr>
   <% end %>
 </table>
