@@ -44,4 +44,6 @@ gem 'httparty'
 
 gem 'pry'
 
+gem 'rails_12factor'
+
 
