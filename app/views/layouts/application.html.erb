@@ -23,20 +23,27 @@
 					<li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
 				</ul>
 			</nav>
-		</div>	
+		</div>
+		<div id='wrapper'>
 			<nav id='collections'>
-					<h5><%= link_to 'Collections', collections_path  %></h5>
+				<ul>
+					<%= link_to 'Current Collections', collections_path  %>
 					<%= link_to 'New Collection', new_collection_path %>
+				</ul>
 			</nav>
-			
-		  
+
+			<%= yield %>
+		 
+		 </div> 
 		
-				<%= yield %>
-			<footer>Brought to you by a web developer who reads!
-			</footer>
+		
 
 			
-		</div>
+
+
+		
+		<footer>Brought to you by a web developer who reads!
+		</footer>
 	</section>
 </body>
 </html>
