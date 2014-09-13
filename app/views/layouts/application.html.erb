@@ -9,18 +9,26 @@
 </head>
 <body>
 	<header>
-		<h3>NextBooks</h3>
-		<h5>The app that tells you the Next Books you should read</h5>
-		<nav><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></nav>
-		<h5><%= link_to 'Collections', collections_path  %></h5>
-		<%= link_to 'New Collection', new_collection_path %>
+		<h3>NextBooks</h3>The app that tells you the Next Books you should read
 	</header>
 	<section>
-		<p class="notice"><%= notice %></p>
-  	<p class="alert"><%= alert %></p>
-
-		<%= yield %>
+		<div id='top_menu'>
+			<nav id='sign'><%= link_to "Sign in", new_user_session_path %>  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+			</nav>
+			<nav id='collections'>
+					<h5><%= link_to 'Collections', collections_path  %></h5>
+					<%= link_to 'New Collection', new_collection_path %>
+			</nav>
+			<div>
+				<p class="notice"><%= notice %></p>
+		  	<p class="alert"><%= alert %></p>
+		  </div>
+		  <div id='left_side'>
 		
+				<%= yield %>
+				
+			</div>
+		</div>
 	</section>
 </body>
 </html>
