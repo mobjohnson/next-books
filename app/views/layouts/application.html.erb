@@ -25,12 +25,13 @@
 			</nav>
 		</div>
 		<div id='wrapper'>
-			<nav id='collections'>
+			<div id='collections'>
 				<ul>
-					<%= link_to 'Current Collections', collections_path  %>
-					<%= link_to 'New Collection', new_collection_path %>
+					<li><%= link_to 'Current Collections', collections_path  %></li>
+					<li><%= link_to 'Create a Collection', new_collection_path %></li>
 				</ul>
-			</nav>
+			</div>
+	
 
 			<%= yield %>
 		 

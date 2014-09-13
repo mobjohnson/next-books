@@ -29,13 +29,14 @@ section {
 	clear: left;
 }
 
+/*notifications and sign in*/
 #top_menu {
 	width: 100%;
 	float: left;
 	display: inline;
 	width: 100%;
 }
-
+/*sign in*/
 #sign {
 	float: right;
 	margin: 0;
@@ -75,28 +76,42 @@ section {
 }
 
 
+#sign {
+	float: right;
+	margin: 0;
+	width: 250px;
+	background-color: #009d91;
+	border: 1px solid black;
+}
+
+/*Main Body*/
 #wrapper {
 	float: left;
 	padding-left: 300px;
+	overflow: hidden;
 }
 
+/*left side*/
 #collections {
 	position: relative;
 	float: left;
 	width: 300px;
 	background-color: #009999;
 	right: 300px;
-	margin-left: -100%;
+	/*margin-left: -100%;*/
+	margin-bottom: -2000px;
+	padding-bottom: -2000px;
 }
 
 
 #collections ul {
-	margin-left: 20px;
+	margin-right: 20px;
 	padding: 0;
 	list-style: none;
 	display: inline;
 }
 #collections ul li {
+	padding: 5px, 20px;
  	display: inline;
  	line-height: 1.8em;
  	color: #00665e;
@@ -127,4 +142,7 @@ section {
 	float: left;
 	background-color: white;
 	width: 100%;
+	margin-bottom: -2000px;
+	padding-bottom: -2000px;
 }
+
