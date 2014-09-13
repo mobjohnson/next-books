@@ -93,7 +93,7 @@ section {
 
 /*left side*/
 #collections {
-	position: relative;
+	/*position: relative;*/
 	float: left;
 	width: 300px;
 	background-color: #009999;
@@ -111,7 +111,6 @@ section {
 	display: inline;
 }
 #collections ul li {
-	padding: 5px, 20px;
  	display: inline;
  	line-height: 1.8em;
  	color: #00665e;
