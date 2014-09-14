@@ -14,6 +14,7 @@ header {
 
 footer {
 	position: relative;
+	clear: both;
 	float: left;
 	width: 100%;
 	padding-top: 20px;
@@ -88,20 +89,20 @@ section {
 /*Main Body*/
 #wrapper {
 	float: left;
-	padding-left: 300px;
+	padding-left: 250px;
 	overflow: hidden;
 }
 
-/*left side*/
+/*left side menu for collections*/
 #collections {
 	position: relative;
 	float: left;
-	width: 300px;
+	width: 250px;
 	background-color: #009999;
-	right: 300px;
+	right: 250px;
 	/*margin-left: -100%;*/
-	margin-bottom: -2000px;
-	padding-bottom: -2000px;
+	/*margin-bottom: -2000px;
+	padding-bottom: -2000px;*/
 }
 
 
@@ -111,6 +112,7 @@ section {
 	list-style: none;
 	display: inline;
 }
+
 #collections ul li {
  	display: inline;
  	line-height: 1.8em;
@@ -135,7 +137,58 @@ section {
 	color: #33c3d7;
 }
 
+/*left side collections list*/
 
+#collect_list {
+	clear: left;
+	position: relative;
+	font-size: 22pt;
+	font-style: bold;
+	float: left;
+	width: 250px;
+	background-color: white;
+	right: 250px;
+	padding-left: 10px;
+	/*margin-left: -100%;*/
+	/*margin-bottom: -2000px;
+	padding-bottom: -2000px;*/
+}
+
+
+#collect_list ul {
+	margin-right: 20px;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+#collect_list ul li {
+	font-size: 16pt;
+	font-style: italic;
+ 	display: inline;
+ 	line-height: 1.8em;
+ 	color: #000000;
+ }
+
+#collect_list ul li a:link, #collect_list ul li a:visited{
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	background-color: #33c3d7;
+	color: #00665e;
+}
+
+#collect_list ul li a:hover, #collect_list ul li a:active {
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	background-color: #006363;
+	color: #33c3d7;
+}
+
+/*authors listing*/
 
 #authors {
 	position: relative;

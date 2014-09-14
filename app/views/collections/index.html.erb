@@ -1,11 +1,11 @@
 <div id='collect_list'>
-	<ul><p>Here are your collections!</p>
+	<p>Your Collections!</p>
 		<% @collections.each do |c| %>
-			<li><%= c.name  %></li>
-			<li><%= link_to 'View', collection_path(c)  %></li>
-			<li><%= link_to 'Edit', edit_collection_path(c) %></li>
-			<li><% link_to 'Delete', c, method: :delete %></li>
+			<ul>
+				<li><%= c.name  %></li>
+				<li><%= link_to 'View', collection_path(c)  %></li>
+				<li><%= link_to 'Edit', edit_collection_path(c) %></li>
+				<li><%= link_to 'Delete', collection_path(c), method: :delete %></li>
+			</ul>
 		<% end %>
-
-	</ul>
 </div>
