@@ -17,7 +17,8 @@ footer {
 	float: left;
 	width: 100%;
 	padding-top: 20px;
-	background-color: #33cec3;
+	background-color: #00665e;
+	color: #5dcec6;
 	padding-bottom: 20px;
 	text-align: center;
 	font-style: italic;
@@ -111,7 +112,6 @@ section {
 	display: inline;
 }
 #collections ul li {
-	padding: 5px, 20px;
  	display: inline;
  	line-height: 1.8em;
  	color: #00665e;
