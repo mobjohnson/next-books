@@ -88,6 +88,7 @@ section {
 
 /*Main Body*/
 #wrapper {
+	width: 100%;
 	float: left;
 	padding-left: 250px;
 	overflow: hidden;
