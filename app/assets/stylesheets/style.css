@@ -23,6 +23,7 @@ footer {
 	padding-bottom: 20px;
 	text-align: center;
 	font-style: italic;
+	margin-top: 15px;
 }
 
 section {
@@ -155,6 +156,10 @@ section {
 	padding-bottom: -2000px;*/
 }
 
+#collect_list p {
+	color: #00665e;
+}
+
 
 #collect_list ul {
 	margin-right: 20px;
@@ -196,7 +201,43 @@ section {
 	float: left;
 	background-color: white;
 	width: 100%;
-	margin-bottom: -2000px;
-	padding-bottom: -2000px;
+	font-size: 22pt;
+	font-style: bold;
 }
 
+#authors p {
+	color: #00665e;
+}
+
+#authors ul {
+	margin-right: 20px;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+#authors ul li {
+	font-size: 16pt;
+	font-style: italic;
+ 	display: inline;
+ 	line-height: 1.8em;
+ 	color: #00665e;
+ }
+
+#authors ul li a:link, #authors ul li a:visited{
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	background-color: #33c3d7;
+	color: #00665e;
+}
+
+#authors ul li a:hover, #authors ul li a:active {
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	background-color: #006363;
+	color: #33c3d7;
+}
