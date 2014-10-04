@@ -1,0 +1,1053 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"collect",
+				"collect_list"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"book",
+				"book_params"
+			],
+			[
+				"Boo",
+				"book_array"
+			],
+			[
+				"find",
+				"find_books"
+			],
+			[
+				"collection",
+				"collection_params"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"company",
+				"company_jobs"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"musical",
+				"musical_id"
+			],
+			[
+				"characte",
+				"character_id"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"uniq",
+				"unique_characters"
+			],
+			[
+				"let",
+				"let_rep"
+			],
+			[
+				"chara",
+				"characters"
+			],
+			[
+				"char",
+				"characters"
+			],
+			[
+				"cha",
+				"characters"
+			],
+			[
+				"eac",
+				"each_character"
+			],
+			[
+				"white",
+				"white_tulip"
+			],
+			[
+				"tip",
+				"tip_percent"
+			],
+			[
+				"annua",
+				"annual_budget"
+			],
+			[
+				"ann",
+				"annual_budget"
+			],
+			[
+				"meal",
+				"meal_price"
+			],
+			[
+				"inte",
+				"integer_two"
+			],
+			[
+				"num",
+				"number_two"
+			],
+			[
+				"number",
+				"number_one"
+			],
+			[
+				"require",
+				"require_relative"
+			],
+			[
+				"card",
+				"card_value"
+			],
+			[
+				"my",
+				"my_higher_or_lower"
+			],
+			[
+				"devi",
+				"my_deviation_amount"
+			],
+			[
+				"gr",
+				"grade"
+			],
+			[
+				"gra",
+				"grade_deviation"
+			],
+			[
+				"student",
+				"student_grades"
+			],
+			[
+				"score",
+				"score_total"
+			],
+			[
+				"stude",
+				"student_grades"
+			],
+			[
+				"stu",
+				"student_grades"
+			],
+			[
+				"water",
+				"water_level"
+			],
+			[
+				"drink",
+				"drink_size"
+			],
+			[
+				"to",
+				"to_symb"
+			],
+			[
+				"to_sym",
+				"to_symb"
+			],
+			[
+				"all",
+				"all_aparts"
+			],
+			[
+				"nu",
+				"num_beds"
+			],
+			[
+				"end",
+				"end_line"
+			],
+			[
+				"st",
+				"start_line"
+			],
+			[
+				"start",
+				"start_line"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"ev",
+				"even_numbers"
+			],
+			[
+				"fa",
+				"fav_farewell"
+			],
+			[
+				"ue",
+				"user_name"
+			],
+			[
+				"met",
+				"met_droid"
+			],
+			[
+				"blong",
+				"belongs_to"
+			],
+			[
+				"Mo",
+				"movie"
+			],
+			[
+				"comm",
+				"commenter"
+			],
+			[
+				"rock_paper",
+				"rock_paper_scissors_path"
+			],
+			[
+				"secet",
+				"secret_number"
+			],
+			[
+				"create",
+				"create_user"
+			],
+			[
+				"bui",
+				"building_address"
+			],
+			[
+				"apt",
+				"apt_bathrooms"
+			],
+			[
+				"ap",
+				"apt_bedrooms"
+			],
+			[
+				"Npr",
+				"NprApi"
+			],
+			[
+				"su",
+				"subject"
+			],
+			[
+				"get_inp",
+				"get_input_fox"
+			],
+			[
+				"build",
+				"building_address"
+			],
+			[
+				"bi",
+				"building_name"
+			],
+			[
+				"buil",
+				"building_address"
+			],
+			[
+				"building",
+				"building_name"
+			],
+			[
+				"apt_",
+				"apt_bathrooms"
+			],
+			[
+				"num_",
+				"num_bathrooms"
+			],
+			[
+				"largest",
+				"largest"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"get",
+				"get_input_digg"
+			],
+			[
+				"title",
+				"title_alt"
+			],
+			[
+				"sh",
+				"show_alll_stories"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"sto",
+				"story"
+			],
+			[
+				"dow",
+				"downcase"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"ask",
+				"ask_cont"
+			],
+			[
+				"secret",
+				"secret_number"
+			],
+			[
+				"guesses",
+				"guesses"
+			],
+			[
+				"sec",
+				"secret_number"
+			],
+			[
+				"bot",
+				"bottle"
+			],
+			[
+				"bo",
+				"bottle"
+			],
+			[
+				"bott",
+				"bottles"
+			],
+			[
+				"up",
+				"upvotes"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"som",
+				"some"
+			],
+			[
+				"mu",
+				"multiplying"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/mj/dev/wdi/w06/next_books/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html.erb",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mj/dev/wdi/w06/next_books/app/views/authors/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mj/dev/wdi/w06/next_books/app/views/books/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mj/dev/wdi/w06/next_books/app/views/authors/_author.html.erb",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "show.html.erb",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mj/dev/wdi/w06/next_books/app/assets/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 3893,
+				"line_ending": "Unix",
+				"name": "style.css"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mj/Sites/WDI/wdidc2/.git/MERGE_MSG",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/books_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/authors_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/collections_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/config/routes.rb",
+		"/Users/mj/dev/wdi/w06/next_books/Gemfile",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/new.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/collection.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/show.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135254_create_books.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/README.rdoc",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/layouts/application.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/author.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/book.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/assets/stylesheets/normalize.css",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/_book.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140909185243_add_user_id_to_books.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/show.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/new.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/index.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/schema.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/seeds.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135309_create_authors.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135322_create_collections.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/_author.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/authors_contoller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908144944_devise_create_users.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/user.rb",
+		"/Users/mj/dev/wdi/w06/next_books/config/environments/development.rb",
+		"/Users/mj/dev/wdi/w04/d04/ts/app/views/layouts/application.html.erb",
+		"/Users/mj/dev/wdi/w04/d04/ts/Gemfile",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/Gemfile",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/app/helpers/sessions_helpers.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/schema.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828152303_create_user.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/app/views/new.html.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828150951_create_users.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828153031_create_users.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/config/database.yml",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/models/tweet.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/models/user.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/controllers/application_controller.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/jobbed_out/views/users.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/jobbed_out/views/user.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d05/students/Martin/super/superheroes.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d04/ultimate_compliment.md",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/views/add.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/schema.sql",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/views/index.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/views/layout.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/views/calculator.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/calc/app.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/views/html.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/app.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/rock_paper_scissors.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/guest_book.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d03/students/Martin/hello_world.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d02/homework/nba_stats/sql_commands.txt",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d02/students/Martin/active-record/musicals/musical.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d02/students/Martin/active-record/musicals/schema.sql",
+		"/Users/mj/.gitconfig",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/rspec/bank_starter/spec/spec_helper.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/calculator/starter/lib/calc.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/potter/potter_my_review.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d05/students/Martin/life/spec/life_spec.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d05/students/Martin/life/lib/life.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/file_io.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/potter/potter.csv",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/homework/self_and_sort_solution.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/potter/homework.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/diy_tests/vending_machine_solution/lib/sku.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/testing/spec/spec_helper.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/animals.txt",
+		"/Users/mj/tmp/git/cool_dir/cool_file.txt",
+		"/Users/mj/tmp/git/.git/COMMIT_EDITMSG",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/calculator/starter/spec/spec_helper.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d04/students/Martin/calculator/starter/calc.md",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/Blanka.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/street_fighter.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/main.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/main.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/flower.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/Zinia.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/Tulip.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/Rose.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d03/students/Martin/flowers.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/ChunLi.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/tdd-in-action.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/tip-calculator.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/name_input.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/deck_o_cards.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/grade_curve.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/make_change.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/high_card.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/adopt_a_dog.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/adopt.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/Corgi.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/Doberman.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/YellowLab.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/Dog.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/homework.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/Guile.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w01/d05/the_landlord_solution.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/ruby",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/testing.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/high_card_bad.rb",
+		"/Users/mj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/robots/models/robot.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/robots/models/protocol_droid.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/robots/main.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d02/students/Martin/street_fighter_orig.rb",
+		"/Users/mj/Sites/WDI/Week_2/class_keurig.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/enums_loops/homework.md",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/robots/main.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/robots/models/robot.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w02/d01/students/Martin/robots/models/protocol_droid.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w01/d04/students/Martin/metro3.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w01/d04/students/Martin/metro2.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w01/d04/students/Martin/metro.rb",
+		"/Users/mj/Sites/WDI/w01/Book.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w01/d05/apart2.rb",
+		"/Users/mj/Sites/WDI/w01/apartment.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"collections",
+			"collection",
+			"collection_params",
+			"collection",
+			"collections",
+			"Collection",
+			"collection",
+			"collections",
+			"Collection",
+			"class",
+			"new",
+			"Calculator.new",
+			"num_baths",
+			"beds",
+			"start",
+			"serve_static_assets",
+			"comments",
+			",latitude",
+			"comments",
+			"location",
+			"images_url",
+			"movie",
+			"movies",
+			"Link",
+			"<%#",
+			"<%",
+			"<%# ",
+			"<%",
+			"<%#",
+			"<%",
+			"\n",
+			"']\n",
+			"story",
+			"digg",
+			"category",
+			"!!\"",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"authors",
+			"author",
+			"author_params",
+			"author",
+			"authors",
+			"Author",
+			"artist",
+			"artists",
+			"Artist",
+			"calc",
+			"bath",
+			"end",
+			"finish",
+			"# comments",
+			"#, latitude",
+			"fires: \"Permitted\", activities: \"Canoeing\", comments",
+			"address",
+			"painting",
+			"Painting",
+			"painting",
+			"Painting",
+			"painting",
+			"Painting",
+			"paintings",
+			"painting",
+			"Painting"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/mj/dev/wdi/w06/next_books/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								849,
+								849
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 130.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html.erb",
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mj/dev/wdi/w06/next_books/app/views/authors/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/mj/dev/wdi/w06/next_books/app/views/books/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/mj/dev/wdi/w06/next_books/app/views/authors/_author.html.erb",
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "show.html.erb",
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/Users/mj/dev/wdi/w06/next_books/app/assets/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 3893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3845,
+								3845
+							]
+						],
+						"settings":
+						{
+							"auto_name": "style.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3953.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.430856104881,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 192.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"campmap",
+				"app/views/camps/_map.html.erb"
+			],
+			[
+				"config",
+				"config/application.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"movierb",
+				"app/models/movie.rb"
+			],
+			[
+				"games",
+				"app/controllers/games_controller.rb"
+			],
+			[
+				"",
+				"app/views/games/index.html.erb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 116.0,
+	"status_bar_visible": true
+}
