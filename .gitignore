@@ -14,3 +14,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore 3 files
+.DS_Store
+app/models/next_books.sublime-project
+app/models/next_books.sublime-workspace
