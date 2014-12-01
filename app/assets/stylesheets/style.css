@@ -16,7 +16,7 @@ header {
 
 section {
 	width: 99%;
-	min-height: 600px;
+	min-height: 580px;
 	float: left;
 	clear: left;
 }
@@ -138,31 +138,33 @@ section {
 	width: 250px;
 	background-color: #E0E1D9;
 	right: 250px;
+	padding-top: 10px;
 	padding-left: 10px;
 }
 
-#collect_list p {
+.collect_list p {
+	font-size: 1.4em;
 	color: #596900;
 }
 
 
-#collect_list ul {
+.collect_list ul {
 	margin-right: 20px;
 	padding: 0;
 	list-style: none;
 	display: block;
 }
 
-#collect_list ul li {
-	font-size: .8em;
+.collect_list ul li {
+	font-size: 1.2em;
 	font-style: italic;
  	display: inline;
  	line-height: 1.8em;
- 	color: #000000;
+ 	color: #596900;
  }
 
-#collect_list ul li a:link, #collect_list ul li a:visited{
-	font-size: .6em;
+.collect_list ul li a:link, #collect_list ul li a:visited{
+	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
@@ -170,8 +172,8 @@ section {
 	color: #596900;
 }
 
-#collect_list ul li a:hover, #collect_list ul li a:active {
-	font-size: .6em;
+.collect_list ul li a:hover, #collect_list ul li a:active {
+	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
