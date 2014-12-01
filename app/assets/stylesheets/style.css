@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #white;
+	font-size: 100%;
+	font-family: Helvetica, arial, sans-serif;
 }
 
 header {
@@ -12,32 +14,20 @@ header {
 	color: #00665e;
 }
 
-footer {
-	position: relative;
-	clear: both;
-	float: left;
-	width: 100%;
-	padding-top: 20px;
-	background-color: #00665e;
-	color: #5dcec6;
-	padding-bottom: 20px;
-	text-align: center;
-	font-style: italic;
-	margin-top: 15px;
-}
-
 section {
-	width: 100%;
+	width: 99%;
+/*	max-width: 1024px;
+	min-width: 640px;*/
 	float: left;
 	clear: left;
 }
 
 /*notifications and sign in*/
 #top_menu {
-	width: 100%;
-	float: left;
+	width: 99%;
+	float: right;
 	display: inline;
-	width: 100%;
+	width: 99%;
 }
 /*sign in*/
 #sign {
@@ -61,7 +51,7 @@ section {
  }
 
 #sign ul li a:link, #sign ul li a:visited{
-	font-size: 10pt;
+	font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
@@ -122,7 +112,7 @@ section {
  }
 
 #collections ul li a:link, #collections ul li a:visited{
-	font-size: 10pt;
+	font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
@@ -131,7 +121,7 @@ section {
 }
 
 #collections ul li a:hover, #collections ul li a:active {
-	font-size: 10pt;
+	font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
@@ -144,7 +134,7 @@ section {
 #collect_list {
 	clear: left;
 	position: relative;
-	font-size: 22pt;
+	font-size: 1.0em;
 	font-style: bold;
 	float: left;
 	width: 250px;
@@ -169,7 +159,7 @@ section {
 }
 
 #collect_list ul li {
-	font-size: 16pt;
+	font-size: .8em;
 	font-style: italic;
  	display: inline;
  	line-height: 1.8em;
@@ -177,7 +167,7 @@ section {
  }
 
 #collect_list ul li a:link, #collect_list ul li a:visited{
-	font-size: 8pt;
+	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
@@ -186,7 +176,7 @@ section {
 }
 
 #collect_list ul li a:hover, #collect_list ul li a:active {
-	font-size: 8pt;
+	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
@@ -201,8 +191,9 @@ section {
 	float: left;
 	background-color: white;
 	width: 100%;
-	font-size: 22pt;
-	font-style: bold;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #00665e;
 }
 
 #authors p {
@@ -217,7 +208,7 @@ section {
 }
 
 #authors ul li {
-	font-size: 16pt;
+	font-size: .8em;
 	font-style: italic;
  	display: inline;
  	line-height: 1.8em;
@@ -225,7 +216,7 @@ section {
  }
 
 #authors ul li a:link, #authors ul li a:visited{
-	font-size: 8pt;
+	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
@@ -234,10 +225,60 @@ section {
 }
 
 #authors ul li a:hover, #authors ul li a:active {
-	font-size: 8pt;
+	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
 	background-color: #006363;
 	color: #33c3d7;
+}
+
+/**/
+
+/*** CSS3: VQS Code 08.11 ***/
+/*** list-table-properties.css ***/
+
+
+table {
+	border-collapse: separate;
+	border-spacing: 8px;
+	caption-side: bottom;
+	empty-cells: show;
+	margin: 40px auto; 
+	table-layout: auto; 
+	width: 99%; }
+	
+	table caption {
+		font: normal 3em 'TitleCopy', Corbel, Helvetica, Arial, sans-serif; }
+
+	table thead {
+		font-size: 1em;
+		font-style: normal;
+		font-variant: small-caps;
+		text-shadow: 0px 1px 1px rgba(255,255,255,.6), 0px -1px 1px rgba(0,0,0,.6); }
+	
+tr {
+	font-size: 1.25em; }
+
+td {
+	vertical-align: top;
+	padding: .5em;
+	background-color: rgba(200, 200, 180,.25);
+	border: 1px solid rgb(200, 200, 180); }
+
+
+
+/**/
+footer {
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	background-color: #00665e;
+	color: #5dcec6;
+	padding-bottom: 20px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 15px;
 }
