@@ -11,7 +11,7 @@
 		<h2>NextBooks</h2>The app that tells you the Next Books you should read
 	</header>
 	<section>
-		<div id='top_menu'>
+		<article id='top_menu'>
 			<div id='notice'>
 				<p class="notice"><%= notice %></p>
 		  	<p class="alert"><%= alert %></p>
@@ -22,7 +22,7 @@
 					<li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
 				</ul>
 			</nav>
-		</div>
+		</article>
 		<div id='wrapper'>
 			<div id='collections'>
 				<ul>
@@ -31,9 +31,11 @@
 				</ul>
 			</div>
 	
-			<%= yield %>
+
 		 
 		 </div> 
+
+		 <%= yield %>
 				
 	</section>
 	<footer>Brought to you by a Web Developer who reads
