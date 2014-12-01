@@ -1,25 +1,30 @@
 <div>
-	<p>Author Name: <%= author.name %> </p>
-	<p>
-	  <%= link_to 'Destroy Author', [author.collection, author],
+	<!-- Shows each Author in the Collection -->
+	<p>Author Name: <%= author.name %> 
+	  <%= link_to 'Remove Author from Collection', [author.collection, author],
 	               method: :delete,
 	               data: { confirm: 'Are you sure?' } %>
 	</p>
 	<div id='recommend'>
-	<h2>The Next Book you should read by this author:</h2>
-	<h3><%= Author.find_book(author).title %></h3>
+	<h3>The Next Book you should read by this author:</h3>
+
+	<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
+	<h4><%= Author.find_book(author).title %></h4>
 	</div>
 
 	<table>
 	  <tr>
+	  	<!-- Table headers -->
 	    <th class='title'>Title</th>
 	    <th class='date'>Date</th>
 	    <th class='status'>Status</th>
 	    <th></th>
 	  </tr>	
+	  <!-- Sort books by date -->
 	  <% @books = author.books.sort_by {|book| book.date} %>
 		<% @books.each do |book| %>
 			<tr>
+				<!-- Listing of each book in table -->
 	      <td class='title'><%= book.title %></td>
 				<td class='date'><%= book.date %></td>
 				<td class= 'status'><%= book.status %></td>
@@ -27,7 +32,8 @@
 			  </tr>
 	  <% end %>
 	</table>
-	** Book data provided by BookReads API **
+	<p></p>
+	<p>** Book data provided by BookReads API **</p>
 </div>
 
 

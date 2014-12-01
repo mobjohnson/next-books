@@ -1,8 +1,10 @@
 <div id='collect_list'>
+  <!-- Displays a list of Collection names -->
 	<p>Your Collections!</p>
 		<% @collections.each do |c| %>
 			<ul>
 				<li><%= c.name  %></li>
+        <!-- Followed by links -->
 				<li><%= link_to 'View', collection_path(c)  %></li>
 				<li><%= link_to 'Edit', edit_collection_path(c) %></li>
 				<li><%= link_to 'Delete', collection_path(c), method: :delete %></li>

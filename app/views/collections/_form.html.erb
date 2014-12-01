@@ -1,6 +1,7 @@
 <%= form_for(@collection) do |f| %>
 	<% if @collection.errors.any? %>
 		<div id='error_explanation'>
+
 			<h2><%= pluralize(@collection.errors.count, 'error') %> prohibited this collection from being saved:</h2>
 
 			<ul>
@@ -8,6 +9,7 @@
 					<li><%= message %></li>
 				<% end %>
 			</ul>
+
 		</div>
 	<% end %>
 
@@ -15,10 +17,11 @@
 		<%= f.label :name %><br>
 		<%= f.text_field :name %>
 	</div>
-
+	<p></p>
 	<div class='actions'>
-		<%= f.submit %>
+		<%= f.submit "Create a New Collection" %>
 	</div>
+
 <% end %>
 
 

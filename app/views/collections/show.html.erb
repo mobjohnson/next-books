@@ -1,13 +1,16 @@
 <div id='authors'>
-	<p>Your Collection</p>
+	<p>Your Collection:</p>
+
+	<!-- Shows name of this Collection -->
 	<p><%= @collection.name %></p>
-	
-	<%= render @collection.authors %>
-			
-	<p>Add an Author:</p>
-	<ul>
-		<li><%= render 'authors/form' %></li>
-		<li><%= link_to 'Edit', edit_collection_path(@collection) %></li>
-		<li><%= link_to 'Delete', @collection, method: :delete %></li>
-	</ul>		
+
+	<!-- Shows Authors in this Collection which then lists the books -->
+	<%= render @collection.authors %>	
+
+	<!-- At bottom of page allows you to add an Author to the collection -->
+	<p>Add an Author to this Collection:</p>
+
+	<!-- Form for adding an Author -->
+	<%= render 'authors/form' %></li>
+
 </div>

@@ -1,11 +1,13 @@
 <div>
+  <!-- Appears at the bottom of the individual Colelction listing showing Authors and Books -->
 	<%= form_for([@collection, @collection.authors.build]) do |f| %>
 		<p>
 			<%= f.label :name %><br>
 			<%= f.text_field :name %>
 		</p>
 		<p>
-			<%= f.submit %>
+			<%= f.submit "Add Author to 
+      Collection"%>
 		</p>
 	<% end %>	
 </div>
