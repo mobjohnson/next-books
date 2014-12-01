@@ -1,8 +1,7 @@
 <div id='authors'>
-	<p>Your Collection:</p>
 
-	<!-- Shows name of this Collection -->
-	<p><%= @collection.name %></p>
+		<!-- Shows name of this Collection -->
+	<p>Your Collection: <%= @collection.name %></p>
 
 	<!-- Shows Authors in this Collection which then lists the books -->
 	<%= render @collection.authors %>	
