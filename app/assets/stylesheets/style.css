@@ -15,26 +15,32 @@ header {
 }
 
 section {
-	width: 99%;
+	width: 100%;
 	min-height: 580px;
 	float: left;
 	clear: left;
 }
 
 /*notifications and sign in*/
+
 #top_menu {
-	width: 99%;
+	width: 100%;
 	float: right;
 	display: inline;
-	width: 99%;
+	width: 100%;
 }
+
 /*sign in*/
+
 #sign {
 	float: right;
 	margin: 0;
 	width: 250px;
-	background-color: #94a537;
+	background-color: #738702;
+	left: 250px;
 	border: 1px solid black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 #sign ul {
@@ -43,6 +49,7 @@ section {
 	list-style: none;
 	display: inline;
 }
+
 #sign ul li {
  	display: inline;
  	line-height: 1.8em;
@@ -56,6 +63,7 @@ section {
 	padding: 7px 10px 7px 10px;
 	background-color: #b9c37f;
 	color: #596900;
+	border-radius: 8px;
 }
 
 #sign ul li a:hover, #sign ul li a:active {
@@ -65,18 +73,11 @@ section {
 	padding: 7px 10px 7px 10px;
 	background-color: #006363;
 	color: #b9c37f;
-}
-
-
-#sign {
-	float: right;
-	margin: 0;
-	width: 250px;
-	background-color: #94a537;
-	border: 1px solid black;
+	border-radius: 8px;
 }
 
 /*Main Body*/
+
 #wrapper {
 	width: 100%;
 	float: left;
@@ -86,17 +87,22 @@ section {
 }
 
 /*left side menu for collections*/
+
 #collections {
 	position: relative;
 	float: left;
-	width: 250px;
+	width: 320px;
 	background-color: #738702;
 	right: 250px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
-
 
 #collections ul {
 	margin-right: 20px;
+	margin-left: 80px;
 	padding: 0;
 	list-style: none;
 	display: inline;
@@ -116,6 +122,7 @@ section {
 	padding: 7px 10px 7px 10px;
 	background-color: #b9c37f;
 	color: #596900;
+	border-radius: 8px;
 }
 
 #collections ul li a:hover, #collections ul li a:active {
@@ -125,6 +132,7 @@ section {
 	padding: 7px 10px 7px 10px;
 	background-color: #006363;
 	color: #b9c37f;
+	border-radius: 8px;
 }
 
 /*left side collections list*/
@@ -142,8 +150,13 @@ section {
 	padding-left: 10px;
 }
 
+.collect_list {
+	margin-left: 10px;
+}
+
 .collect_list p {
 	font-size: 1.4em;
+	margin-left: 10px;
 	color: #596900;
 }
 
@@ -170,6 +183,7 @@ section {
 	padding: 3px 5px 3px 5px;
 	background-color: #b9c37f;
 	color: #596900;
+	border-radius: 8px;
 }
 
 .collect_list ul li a:hover, #collect_list ul li a:active {
@@ -179,6 +193,22 @@ section {
 	padding: 3px 5px 3px 5px;
 	background-color: #006363;
 	color: #b9c37f;
+	border-radius: 8px;
+}
+
+.collect_list input {
+	font-size: .8em;
+	font-weight: bold;
+	text-decoration: none;
+	width: 300px;
+	padding: 3px 5px 3px 5px;
+	background-color: #b9c37f;
+	border-radius: 8px;
+	color: #596900;
+}
+
+.collect_list label {
+	color: #596900;
 }
 
 /*authors listing*/
@@ -221,6 +251,7 @@ section {
 	padding: 3px 5px 3px 5px;
 	background-color: #b9c37f;
 	color: #596900;
+	border-radius: 8px;
 }
 
 #authors a:hover, #authors a:active {
@@ -230,6 +261,7 @@ section {
 	padding: 3px 5px 3px 5px;
 	background-color: #006363;
 	color: #b9c37f;
+
 }
 
 #authors input {
@@ -239,17 +271,11 @@ section {
 	width: 300px;
 	padding: 3px 5px 3px 5px;
 	background-color: #b9c37f;
+	border-radius: 8px;
 	color: #596900;
 }
 
-/*#authors input:hover, #authors input:active {
-	font-size: .6em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 3px 5px 3px 5px;
-	background-color: #006363;
-	color: #b9c37f;
-}*/
+/* Recommended books properties */
 
 #recommend {
 	margin-left: 40px;
@@ -282,11 +308,11 @@ td {
 	vertical-align: top;
 	padding: .5em;
 	background-color: rgba(200, 200, 180,.25);
-	border: 1px solid rgb(200, 200, 180); }
+	border: 1px solid rgb(200, 200, 180); 
+}
 
+/* Footer properties*/
 
-
-/**/
 footer {
 	position: relative;
 	clear: both;
