@@ -1,6 +1,6 @@
 class Author < ActiveRecord::Base
-	has_and_belongs_to_many :books
-	has_and_belongs_to_many :collections
+	has_many :collections
+	has_many :books
 
 	validates :name, length: {minimum: 4}
 

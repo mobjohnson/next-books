@@ -7,7 +7,7 @@ class CollectionsController < ApplicationController
 	end
 
 	def new
-		@collection =Collection.new
+		@collection = Collection.new
 	end
 
 	def show

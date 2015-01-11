@@ -1,5 +1,6 @@
 class Book < ActiveRecord::Base
 	belongs_to :author
+  has_may :collections, through: :authors
 
 	validates :title, length: {minimum: 4}
 	# validates :synopsis, presence: true

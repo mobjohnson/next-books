@@ -1,7 +1,7 @@
 class Collection < ActiveRecord::Base
-	has_and_belongs_to_many :authors
 	belongs_to :user
-	has_many :books, through: :author
+  has_many :authors
+	has_many :books, through: :authors
 
 	# validates_associated :user
 	# validates_associated :author
