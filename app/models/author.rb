@@ -1,5 +1,5 @@
 class Author < ActiveRecord::Base
-	has_many :books, dependent: :destroy
+	belongs_to :book
 	belongs_to :collection
 
 	validates :name, length: {minimum: 4}
