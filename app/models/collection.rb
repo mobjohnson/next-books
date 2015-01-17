@@ -1,6 +1,6 @@
 class Collection < ActiveRecord::Base
-	has_many :authors, dependent: :destroy
+	has_many :authors
 	belongs_to :user
-	has_many :books, through: :author
+	has_many :books, through: :authors
 
 end
