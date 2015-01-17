@@ -33,7 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
 
       t.time
 
-      t.references :author, index: true
+      
     end
 
     add_index :users, :email,                unique: true
