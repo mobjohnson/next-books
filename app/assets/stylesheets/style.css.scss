@@ -1,3 +1,9 @@
+$primary-color:  #A7383D;
+$lightest-color: #FBA7AB;
+$light-color:    #D1686E;
+$dark-color:     #7D151A;
+$darkest-color:  #540004;
+
 body {
 	margin: 0;
 	padding: 0;
@@ -10,8 +16,8 @@ header {
 	float: left;
 	width: 100%;
 	padding-left: 20px;
-	background-color: #b9c37f;
-	color: #596900;
+	background-color: $primary-color;
+	color: $lightest-color;
 }
 
 section {
@@ -19,7 +25,7 @@ section {
 	min-height: 580px;
 	float: left;
 	clear: left;
-	background-position: center;
+	// background-position: center;
 	background-repeat: no-repeat;
 	background-image: image-url('colorful_books.jpg');
 }
@@ -39,7 +45,7 @@ section {
 	float: right;
 	margin: 0;
 	width: 250px;
-	background-color: #738702;
+	background-color: $dark-color;
 	left: 250px;
 	border: 1px solid black;
 	border-top-left-radius: 5px;
@@ -56,7 +62,7 @@ section {
 #sign ul li {
  	display: inline;
  	line-height: 1.8em;
- 	color: #596900;
+ 	color: $lightest-color;
  }
 
 #sign ul li a:link, #sign ul li a:visited{
@@ -64,8 +70,8 @@ section {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: #b9c37f;
-	color: #596900;
+	background-color: $lightest-color;
+	color: $darkest-color;
 	border-radius: 8px;
 }
 
@@ -74,9 +80,15 @@ section {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: #006363;
-	color: #b9c37f;
+	background-color: $darkest-color;
+	color: $lightest-color;
 	border-radius: 8px;
+}
+
+/* Header */
+
+h1 {
+	color: $dark-color;
 }
 
 /*Main Body*/
@@ -91,11 +103,11 @@ section {
 
 /*left side menu for collections*/
 
-#collections {
+#collect_nav {
 	position: relative;
 	float: left;
 	width: 320px;
-	background-color: #738702;
+	background-color: $dark-color;
 	right: 250px;
 	margin-bottom: 10px;
 	border: 1px solid black;
@@ -103,7 +115,7 @@ section {
 	border-bottom-right-radius: 5px;
 }
 
-#collections ul {
+#collect_nav ul {
 	margin-right: 20px;
 	margin-left: 80px;
 	padding: 0;
@@ -112,29 +124,29 @@ section {
 	clear: both;
 }
 
-#collections ul li {
+#collect_nav ul li {
  	display: inline;
  	line-height: 1.8em;
- 	color: #596900;
+ 	color: $lightest-color;
  }
 
-#collections ul li a:link, #collections ul li a:visited{
+#collect_nav ul li a:link, #collect_nav ul li a:visited{
 	font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: #b9c37f;
-	color: #596900;
+	background-color: $lightest-color;
+	color: $darkest-color;
 	border-radius: 8px;
 }
 
-#collections ul li a:hover, #collections ul li a:active {
+#collect_nav ul li a:hover, #collect_nav ul li a:active {
 	font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: #006363;
-	color: #b9c37f;
+	background-color: $darkest-color;
+	color: $lightest-color;
 	border-radius: 8px;
 }
 
