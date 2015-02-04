@@ -5,6 +5,7 @@ $dark-color:     #7D151A;
 $darkest-color:  #540004;
 $pri-back:	rgba(167,56,62,0.9);
 $lightest-back: rgba(251,167,171,0.75);
+$light-back: rgba(209,104,109,0.5);
 
 body {
 	margin: 0;
@@ -12,7 +13,7 @@ body {
 	background-color: #E0E1D9;
 	font-size: 100%;
 	font-family: Helvetica, arial, sans-serif;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-image: image-url('colorful_books.jpg');
 }
 
@@ -240,13 +241,32 @@ div.collect_list {
 	color: #596900;
 }
 
+/* blocking for authors and books */
+
+div#author_form {
+	background-color: $light-back;
+	float: left;
+	width: 25%;
+}
+
+div#books {
+	float: right;
+	width: 75%;
+}
+
+div#advert {
+	float: left;
+	width: 25%;
+
+}
+
 /*authors listing*/
 
 #authors {
 	clear: both;
 	float: left;
 	display: block;
-	margin-left: 20px;
+	margin-left: 40px;
 	background-color: #E0E1D9;
 	width: 100%;
 	font-size: 1.5em;
@@ -254,8 +274,17 @@ div.collect_list {
 	color: #596900;
 }
 
+div#authors {
+	padding-left: 20px;
+	background-repeat: repeat;
+	background-image: image-url('z-round.png');
+	color: $darkest-color;
+}
+
 #authors p {
-	color: #596900;
+	background-color: $pri-back;
+	padding-left: 10px;
+	// color: $darkest-color;
 }
 
 #authors ul {
@@ -312,6 +341,7 @@ div.collect_list {
 /* Table properties */
 
 table {
+	background-color: $light-back;
 	border-collapse: separate;
 	border-spacing: 8px;
 	caption-side: bottom;
@@ -327,7 +357,7 @@ table {
 		font-size: 1em;
 		font-style: normal;
 		font-variant: small-caps;
-		text-shadow: 0px 1px 1px rgba(255,255,255,.6), 0px -1px 1px rgba(0,0,0,.6); }
+		text-shadow: 0px 1px 1px rgba(255,255,255,.2), 0px -1px 1px rgba(0,0,0,.2); }
 	
 tr {
 	font-size: 0.8em; }
@@ -337,6 +367,14 @@ td {
 	padding: .5em;
 	background-color: rgba(200, 200, 180,.25);
 	border: 1px solid rgb(200, 200, 180); 
+}
+
+/* Advertisement */
+
+div#advertisement {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-image: image-url('borders.png');
 }
 
 /* Footer properties*/

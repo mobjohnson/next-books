@@ -1,41 +1,49 @@
-<div>
-	<!-- Shows each Author in the Collection -->
-	<p>Author Name: <%= author.name %> 
-	  <%= link_to 'Remove Author from Collection', [author.collection, author],
-	               method: :delete,
-	               data: { confirm: 'Are you sure?' } %>
-	</p>
-	<div id='recommend'>
-	<h3>The Next Book you should read by this author:</h3>
+<div id='collections'>
+	<div id='author_form'>
 
-	<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
-	<h4><%= Author.find_book(author).title %></h4>
+		<!-- Shows each Author in the Collection -->
+		<p>Author Name: <%= author.name %> 
+		  <%= link_to 'Remove Author from Collection', [author.collection, author],
+		               method: :delete,
+		               data: { confirm: 'Are you sure?' } %>
+		</p>
+		<div id='recommend'>
+		<h3>The Next Book you should read by this author:</h3>
+
+		<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
+		<h4><%= Author.find_book(author).title %></h4>
+		</div>
 	</div>
+	<div id='books'>
+		<h4>Books by this Author:</h4>
 
-	<h4>Books by this Author:</h4>
-
-	<table>
-	  <tr>
-	  	<!-- Table headers -->
-	    <th class='title'>Title</th>
-	    <th class='date'>Date</th>
-	    <th class='status'>Status</th>
-	    <th></th>
-	  </tr>	
-	  <!-- Sort books by date -->
-	  <% @books = author.books.sort_by {|book| book.date} %>
-		<% @books.each do |book| %>
-			<tr>
-				<!-- Listing of each book in table -->
-	      <td class='title'><%= book.title %></td>
-				<td class='date'><%= book.date %></td>
-				<td class= 'status'><%= book.status %></td>
-				<td class='link'><%= link_to 'Edit Status', edit_collection_author_book_path(@collection, author, book) %></td>
-			  </tr>
-	  <% end %>
-	</table>
-	<p></p>
-	<p>** Book data provided by BookReads API **</p>
+		<table>
+		  <tr>
+		  	<!-- Table headers -->
+		    <th class='title'>Title</th>
+		    <th class='date'>Date</th>
+		    <th class='status'>Status</th>
+		    <th></th>
+		  </tr>	
+		  <!-- Sort books by date -->
+		  <% @books = author.books.sort_by {|book| book.date} %>
+			<% @books.each do |book| %>
+				<tr>
+					<!-- Listing of each book in table -->
+		      <td class='title'><%= book.title %></td>
+					<td class='date'><%= book.date %></td>
+					<td class= 'status'><%= book.status %></td>
+					<td class='link'><%= link_to 'Edit Status', edit_collection_author_book_path(@collection, author, book) %></td>
+				  </tr>
+		  <% end %>
+		</table>
+		<p></p>
+		<p>** Book data provided by BookReads API **</p>
+	</div>	
+	<div id='advert'>
+		<h3>Our Sponsor:</h3>
+		<div id='advertisement'></div>
+	</div>
 </div>
 
 
