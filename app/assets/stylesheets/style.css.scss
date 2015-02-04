@@ -1,16 +1,33 @@
-$primary-color:  #A7383D;
-$lightest-color: #FBA7AB;
-$light-color:    #D1686E;
-$dark-color:     #7D151A;
-$darkest-color:  #540004;
+// Primary colors
+
+$pri-base-color:     #A7383D;
+$pri-lightest-color: #FBA7AB;
+$pri-light-color:    #D1686E;
+$pri-dark-color:     #7D151A;
+$pri-darkest-color:  #540004;
 $pri-back:	rgba(167,56,62,0.9);
-$lightest-back: rgba(251,167,171,0.75);
-$light-back: rgba(209,104,109,0.5);
+$pri-lightest-back: rgba(251,167,171,0.75);
+$pri-light-back: rgba(209,104,109,0.5);
+
+// Secondary colors - now Brown
+$sec-base-color:	   rgba(170,106,57,1.0);
+$sec-lightest-color: rgba(255,207,170,1.0);
+$sec-light-color:    rgba(121,152,106,1.0);
+$sec-dark-color:     rgba(128,67,21,1.0);
+$sec-darkest-color:  rgba(85,37,0,1.0);
+
+
+// Third colors - now Purple
+$thi-base-color:     rgba(134,45,99,1.0);
+$thi-lightest-color: rgba(201,134,175,1.0);
+$thi-light-color:		 rgba(167,84,134,1.0);
+$thi-dark-color:		 rgba(100,17,67,1.0);
+$thi-darkest-color:  rgba(67,0,47,1.0);
+
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #E0E1D9;
 	font-size: 100%;
 	font-family: Helvetica, arial, sans-serif;
 	background-repeat: repeat;
@@ -22,7 +39,7 @@ header {
 	width: 100%;
 	padding-left: 20px;
 	background-color: $pri-back;
-	color: $lightest-color;
+	color: $pri-lightest-color;
 }
 
 section {
@@ -48,7 +65,7 @@ section {
 	float: right;
 	margin: 0;
 	width: 250px;
-	background-color: $dark-color;
+	background-color: $pri-dark-color;
 	left: 250px;
 	border: 1px solid black;
 	border-top-left-radius: 5px;
@@ -65,7 +82,7 @@ section {
 #sign ul li {
  	display: inline;
  	line-height: 1.8em;
- 	color: $light-color;
+ 	color: $pri-light-color;
  }
 
 #sign ul li a:link, #sign ul li a:visited{
@@ -73,8 +90,8 @@ section {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: $light-color;
-	color: $darkest-color;
+	background-color: $pri-light-color;
+	color: $pri-darkest-color;
 	border-radius: 8px;
 }
 
@@ -83,15 +100,15 @@ section {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: $darkest-color;
-	color: $light-color;
+	background-color: $pri-darkest-color;
+	color: $pri-light-color;
 	border-radius: 8px;
 }
 
 /* Header */
 
 h1 {
-	color: $darkest-color;
+	color: $pri-darkest-color;
 	font-style: italic;
 }
 
@@ -111,7 +128,7 @@ h1 {
 	position: relative;
 	float: left;
 	width: 320px;
-	background-color: $dark-color;
+	background-color: $pri-dark-color;
 	right: 250px;
 	margin-bottom: 10px;
 	border: 1px solid black;
@@ -131,7 +148,7 @@ h1 {
 #collect_nav ul li {
  	display: inline;
  	line-height: 1.8em;
- 	color: $light-color;
+ 	color: $pri-light-color;
  }
 
 #collect_nav ul li a:link, #collect_nav ul li a:visited{
@@ -139,8 +156,8 @@ h1 {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: $light-color;
-	color: $darkest-color;
+	background-color: $pri-light-color;
+	color: $pri-darkest-color;
 	border-radius: 8px;
 }
 
@@ -149,8 +166,8 @@ h1 {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: $darkest-color;
-	color: $light-color;
+	background-color: $pri-darkest-color;
+	color: $pri-light-color;
 	border-radius: 8px;
 }
 
@@ -176,7 +193,7 @@ h1 {
 
 div.collect_list {
 	width: 20%;
-	background-color: $lightest-back;
+	background-color: $pri-lightest-back;
 }
 
 .collect_list {
@@ -186,7 +203,7 @@ div.collect_list {
 .collect_list p {
 	font-size: 1.4em;
 	margin-left: 10px;
-	color: $darkest-color;
+	color: $pri-darkest-color;
 }
 
 
@@ -204,7 +221,7 @@ div.collect_list {
 	font-style: italic;
  	display: inline;
  	line-height: 1.8em;
- 	color: $darkest-color;
+ 	color: $pri-darkest-color;
  }
 
 .collect_list ul li a:link, .collect_list ul li a:visited{
@@ -212,8 +229,8 @@ div.collect_list {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: $darkest-color;
-	color: $light-color;
+	background-color: $pri-darkest-color;
+	color: $pri-light-color;
 	border-radius: 8px;
 }
 
@@ -222,8 +239,8 @@ div.collect_list {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: $light-color;
-	color: $darkest-color;
+	background-color: $pri-light-color;
+	color: $pri-darkest-color;
 	border-radius: 8px;
 }
 
@@ -244,7 +261,7 @@ div.collect_list {
 /* blocking for authors and books */
 
 div#author_form {
-	background-color: $light-back;
+	background-color: $pri-light-back;
 	float: left;
 	width: 25%;
 }
@@ -278,13 +295,13 @@ div#authors {
 	padding-left: 20px;
 	background-repeat: repeat;
 	background-image: image-url('z-round.png');
-	color: $darkest-color;
+	color: $pri-darkest-color;
 }
 
 #authors p {
 	background-color: $pri-back;
 	padding-left: 10px;
-	// color: $darkest-color;
+	// color: $pri-darkest-color;
 }
 
 #authors ul {
@@ -341,7 +358,7 @@ div#authors {
 /* Table properties */
 
 table {
-	background-color: $light-back;
+	background-color: $pri-light-back;
 	border-collapse: separate;
 	border-spacing: 8px;
 	caption-side: bottom;
@@ -386,7 +403,7 @@ footer {
 	width: 100%;
 	padding-top: 20px;
 	background-color: $pri-back;
-	color: $darkest-color;
+	color: $pri-darkest-color;
 	padding-bottom: 20px;
 	text-align: center;
 	font-style: italic;
