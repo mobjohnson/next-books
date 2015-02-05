@@ -15,6 +15,7 @@ $sec-lightest-color: rgba(255,207,170,1.0);
 $sec-light-color:    rgba(121,152,106,1.0);
 $sec-dark-color:     rgba(128,67,21,1.0);
 $sec-darkest-color:  rgba(85,37,0,1.0);
+$sec-lightest-back:  rgba(255,207,170,0.75);
 
 
 // Third colors - now Purple
@@ -193,7 +194,7 @@ h1 {
 
 div.collect_list {
 	width: 20%;
-	background-color: $pri-lightest-back;
+	background-color: $sec-lightest-back;
 }
 
 .collect_list {
@@ -203,7 +204,7 @@ div.collect_list {
 .collect_list p {
 	font-size: 1.4em;
 	margin-left: 10px;
-	color: $pri-darkest-color;
+	color: $sec-dark-color;
 }
 
 
@@ -221,7 +222,7 @@ div.collect_list {
 	font-style: italic;
  	display: inline;
  	line-height: 1.8em;
- 	color: $pri-darkest-color;
+ 	color: $sec-darkest-color;
  }
 
 .collect_list ul li a:link, .collect_list ul li a:visited{
@@ -229,8 +230,8 @@ div.collect_list {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: $pri-darkest-color;
-	color: $pri-light-color;
+	background-color: $sec-dark-color;
+	color: $sec-lightest-color;
 	border-radius: 8px;
 }
 
@@ -239,8 +240,8 @@ div.collect_list {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: $pri-light-color;
-	color: $pri-darkest-color;
+	background-color: $sec-lightest-color;
+	color: $sec-dark-color;
 	border-radius: 8px;
 }
 
