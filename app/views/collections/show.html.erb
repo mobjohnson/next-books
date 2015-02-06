@@ -1,14 +1,14 @@
-<div id='authors'>
+<div class='authors'>
 	<div>
 
 		<!-- Shows name of this Collection -->
-		<p id='heading'>Collection: <%= @collection.name %></p>
+		<p class='heading'>Collection: <%= @collection.name %></p>
 
 		<!-- Shows Authors in this Collection which then lists the books -->
 		<%= render @collection.authors %>	
 
 		<!-- At bottom of page, form allows you to add an Author to the collection -->
 		<%= render 'authors/form' %></li>
-</div>
+	</div>
 
 </div>

@@ -1,14 +1,15 @@
-<div id='collection_form' class='screen2'>
-
-  <!-- Appears at the bottom of the individual Collection listing showing Authors and Books -->
-  <p>Add an Author to this Collection</p>
-	<%= form_for([@collection, @collection.authors.build]) do |f| %>
-		<p>
-			<%= f.label :name %><br>
-			<%= f.text_field :name %>
-		</p>
-		<p>
-			<%= f.submit "Add Author to Collection"%>
-		</p>
-	<% end %>	
+<div class='collection_form screen2'>
+	<div>
+	  <!-- Appears at the bottom of the individual Collection listing showing Authors and Books -->
+	  <p>Add an Author to this Collection</p>
+		<%= form_for([@collection, @collection.authors.build]) do |f| %>
+			<p>
+				<%= f.label :name %><br>
+				<%= f.text_field :name %>
+			</p>
+			<p>
+				<%= f.submit "Add Author to Collection"%>
+			</p>
+		<% end %>	
+	</div>
 </div>

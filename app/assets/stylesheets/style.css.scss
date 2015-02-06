@@ -38,7 +38,6 @@ body {
 
 	background-repeat: repeat;
 	background-image: image-url('colorful_books.jpg');
-	
 }
 
 header {
@@ -257,23 +256,34 @@ div.collect_list {
 /* blocking for authors and books */
 // *******************************************
 
-div#author_form {
+div.author_form {
 	float: left;
 	width: 35%;
 	// background-color: $sec-light-back;
 }
 
-div#books {
+div.books {
 	float: right;
 	width: 65%;
+	background-color: $sec-lightest-back;
 }
 
-div#advert {
+div.advert {
 	float: left;
 	width: 35%;
 }
 
-div#collection_form {
+div.advert2 {
+	float: left;
+	width: 35%;
+}
+
+// div#advert2 {
+// 	float: left;
+// 	width: 35%;
+// }
+
+div.collection_form {
 	float: left;
 	width: 35%;
 }
@@ -281,7 +291,7 @@ div#collection_form {
 /*authors listing*/
 // *************************************
 
-#authors {
+.authors {
 	clear: both;
 	float: left;
 	display: block;
@@ -293,7 +303,7 @@ div#collection_form {
 	color: #596900;
 }
 
-div#authors {
+div.authors {
 	// padding-left: 20px;
 	background-repeat: repeat;
 	background-image: image-url('z-round.png');
@@ -302,25 +312,25 @@ div#authors {
 }
 
 
-p#heading {
+p.heading {
 	background-color: $sec-base-back;
 }
 
-#authors p {
+.authors p {
 	margin: 0;
 	
 	padding: 10px;
 	// color: $pri-darkest-color;
 }
 
-#authors ul {
+.authors ul {
 	margin-right: 20px;
 	padding: 0;
 	list-style: none;
 	display: inline;
 }
 
-#authors ul li {
+.authors ul li {
 	font-size: .8em;
 	font-style: italic;
  	display: inline;
@@ -328,7 +338,7 @@ p#heading {
  	color: #596900;
  }
 
-#authors a:link, #authors a:visited{
+.authors a:link, #authors a:visited{
 	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
@@ -338,7 +348,7 @@ p#heading {
 	border-radius: 8px;
 }
 
-#authors a:hover, #authors a:active {
+.authors a:hover, #authors a:active {
 	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
@@ -348,7 +358,7 @@ p#heading {
 
 }
 
-#authors input {
+.authors input {
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
@@ -361,7 +371,7 @@ p#heading {
 
 /* Recommended books properties */
 
-#recommend {
+.recommend {
 	margin-left: 40px;
 }
 
@@ -399,12 +409,21 @@ td {
 
 /* Advertisement */
 
-div#advertisement {
+div.advertisement {
 	height: 280px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: image-url('borders.png');
+	background-image: image-url('BDalton.png');
 }
+
+div.advertisement2 {
+	height: 280px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: image-url('BDalton.png');
+}
+
+
 
 /* Footer properties*/
 

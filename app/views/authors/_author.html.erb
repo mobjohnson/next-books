@@ -1,5 +1,5 @@
-<div id='collections'>
-	<div id='author_form' class='screen2'>
+<div class='collections'>
+	<div class='author_form screen2'>
 
 		<!-- Shows each Author in the Collection -->
 		<p>Author Name: <%= author.name %></p> 
@@ -7,14 +7,15 @@
 		               method: :delete,
 		               data: { confirm: 'Are you sure?' } %>
 		</p>
-		<div id='recommend'>
-		<h3>The Next Book you should read by this author:</h3>
+		<div class='recommend'>
+			<h3>The Next Book you should read by this author:</h3>
 
-		<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
-		<h4><%= Author.find_book(author).title %></h4>
+			<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
+			<h4><%= Author.find_book(author).title %></h4>
 		</div>
 	</div>
-	<div id='books' class='screen'>
+	
+	<div class='books' class='screen'>
 		<h4>Books by this Author:</h4>
 
 		<table>
@@ -40,9 +41,13 @@
 		<p></p>
 		<p>** Book data provided by BookReads API **</p>
 	</div>	
-	<div id='advert'>
-		<div id='advertisement'></div>
+	<div class='advert'>
+		<div class='advertisement'></div>
 	</div>
+	<div class='advert2'>
+		<div class='advertisement2'></div>
+	</div>
+
 </div>
 
 
