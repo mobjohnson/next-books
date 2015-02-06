@@ -5,17 +5,19 @@ $pri-lightest-color: #FBA7AB;
 $pri-light-color:    #D1686E;
 $pri-dark-color:     #7D151A;
 $pri-darkest-color:  #540004;
-$pri-back:	rgba(167,56,62,0.9);
-$pri-lightest-back: rgba(251,167,171,0.75);
-$pri-light-back: rgba(209,104,109,0.5);
+$pri-back:	         rgba(167,56,62,0.9);
+$pri-lightest-back:  rgba(251,167,171,0.75);
+$pri-light-back:     rgba(209,104,109,0.5);
 
 // Secondary colors - now Brown
 $sec-base-color:	   rgba(170,106,57,1.0);
 $sec-lightest-color: rgba(255,207,170,1.0);
-$sec-light-color:    rgba(121,152,106,1.0);
+$sec-light-color:    rgba(212,152,106,1.0);
 $sec-dark-color:     rgba(128,67,21,1.0);
 $sec-darkest-color:  rgba(85,37,0,1.0);
+$sec-base-back:  	   rgba(170,106,57,0.75);
 $sec-lightest-back:  rgba(255,207,170,0.75);
+$sec-light-back:     rgba(212,152,106,0.75);
 
 
 // Third colors - now Purple
@@ -24,7 +26,7 @@ $thi-lightest-color: rgba(201,134,175,1.0);
 $thi-light-color:		 rgba(167,84,134,1.0);
 $thi-dark-color:		 rgba(100,17,67,1.0);
 $thi-darkest-color:  rgba(67,0,47,1.0);
-$thi-lightest-back:  rgba(201,134,175,0.75);
+$thi-lightest-back:  rgba(201,134,175,0.9);
 
 
 
@@ -133,6 +135,7 @@ h4 {
 }
 
 /*left side menu for collections*/
+// ****************************************
 
 #collect_nav {
 	// position: relative;
@@ -182,24 +185,7 @@ h4 {
 }
 
 /*left side collections list*/
-
-// 
-// 
-// is this used?
-// 
-// 
-
-// #collect_list {
-// 	clear: left;
-// 	position: relative;
-// 	font-size: 1.0em;
-// 	font-style: bold;
-// 	float: left;
-// 	width: 250px;
-// 	background-color: #E0E1D9;
-// 	right: 250px;
-// 	padding-top: 10px;
-// }
+// *****************************************
 
 div.collect_list {
 	width: 20%;
@@ -269,32 +255,38 @@ div.collect_list {
 }
 
 /* blocking for authors and books */
+// *******************************************
 
 div#author_form {
-	background-color: $pri-light-back;
 	float: left;
-	width: 25%;
+	width: 35%;
+	// background-color: $sec-light-back;
 }
 
 div#books {
 	float: right;
-	width: 75%;
+	width: 65%;
 }
 
 div#advert {
 	float: left;
-	width: 25%;
+	width: 35%;
+}
 
+div#collection_form {
+	float: left;
+	width: 35%;
 }
 
 /*authors listing*/
+// *************************************
 
 #authors {
 	clear: both;
 	float: left;
 	display: block;
 	// margin-left: 40px;
-	background-color: #E0E1D9;
+	// background-color: #E0E1D9;
 	width: 100%;
 	font-size: 1.5em;
 	font-style: italic;
@@ -305,12 +297,19 @@ div#authors {
 	// padding-left: 20px;
 	background-repeat: repeat;
 	background-image: image-url('z-round.png');
-	color: $pri-darkest-color;
+	color: $sec-darkest-color;
+
+}
+
+
+p#heading {
+	background-color: $sec-base-back;
 }
 
 #authors p {
-	background-color: $pri-back;
-	padding-left: 10px;
+	margin: 0;
+	
+	padding: 10px;
 	// color: $pri-darkest-color;
 }
 
@@ -334,8 +333,8 @@ div#authors {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: #b9c37f;
-	color: #596900;
+	background-color: $sec-dark-color;
+	color: $sec-lightest-color;
 	border-radius: 8px;
 }
 
@@ -344,8 +343,8 @@ div#authors {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 3px 5px 3px 5px;
-	background-color: #006363;
-	color: #b9c37f;
+	background-color: $sec-lightest-color;
+	color: $sec-dark-color;
 
 }
 
@@ -353,10 +352,11 @@ div#authors {
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
-	width: 300px;
+	width: 240px;
 	padding: 3px 5px 3px 5px;
-	background-color: #b9c37f;
-	color: #596900;
+	border-radius: 5px;
+	background-color: $sec-dark-color;
+	color: $sec-lightest-color;
 }
 
 /* Recommended books properties */
@@ -366,9 +366,10 @@ div#authors {
 }
 
 /* Table properties */
+// *******************************************
 
 table {
-	background-color: $pri-light-back;
+	// background-color: $sec-lightest-back;
 	border-collapse: separate;
 	border-spacing: 8px;
 	caption-side: bottom;
@@ -392,14 +393,14 @@ tr {
 td {
 	vertical-align: top;
 	padding: .5em;
-	background-color: rgba(200, 200, 180,.25);
-	border: 1px solid rgb(200, 200, 180); 
+	// background-color: rgba(200, 200, 180,.25);
+	// border: 1px solid rgb(200, 200, 180); 
 }
 
 /* Advertisement */
 
 div#advertisement {
-	height: 200px;
+	height: 280px;
 	background-repeat: no-repeat;
 	background-image: image-url('borders.png');
 }
@@ -419,3 +420,13 @@ footer {
 	font-style: italic;
 	margin-top: 15px;
 }
+
+div.screen {
+	background-color: $sec-lightest-back;
+}
+
+div.screen2 {
+	background-color: $sec-light-back;
+}
+
+

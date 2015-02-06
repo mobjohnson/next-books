@@ -1,9 +1,9 @@
 <div id='collections'>
-	<div id='author_form'>
+	<div id='author_form' class='screen2'>
 
 		<!-- Shows each Author in the Collection -->
-		<p>Author Name: <%= author.name %> 
-		  <%= link_to 'Remove Author from Collection', [author.collection, author],
+		<p>Author Name: <%= author.name %></p> 
+		<p>  <%= link_to 'Remove Author from Collection', [author.collection, author],
 		               method: :delete,
 		               data: { confirm: 'Are you sure?' } %>
 		</p>
@@ -14,7 +14,7 @@
 		<h4><%= Author.find_book(author).title %></h4>
 		</div>
 	</div>
-	<div id='books'>
+	<div id='books' class='screen'>
 		<h4>Books by this Author:</h4>
 
 		<table>
@@ -41,7 +41,6 @@
 		<p>** Book data provided by BookReads API **</p>
 	</div>	
 	<div id='advert'>
-		<h3>Our Sponsor:</h3>
 		<div id='advertisement'></div>
 	</div>
 </div>
