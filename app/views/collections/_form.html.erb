@@ -1,4 +1,4 @@
-<div>
+<div class='collection_edit'>
 	<!-- Displays errors in creating Collection -->
 	<%= form_for(@collection) do |f| %>
 		<% if @collection.errors.any? %>
@@ -22,7 +22,7 @@
 		</div>
 		<p></p>
 		<div class='actions'>
-			<%= f.submit "Create a New Collection" %>
+			<%= f.submit "Create New Collection" %>
 		</div>
 	<% end %>
 </div>	

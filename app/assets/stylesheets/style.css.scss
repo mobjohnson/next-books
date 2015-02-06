@@ -89,20 +89,21 @@ footer {
 	border: 1px solid black;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-}
 
-#sign ul {
-	margin-left: 20px;
-	padding: 0;
-	list-style: none;
-	display: inline;
-}
+	ul {
+		margin-left: 20px;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	
 
-#sign ul li {
- 	display: inline;
- 	line-height: 1.8em;
- 	color: $pri-light-color;
- }
+		li {
+		 	display: inline;
+		 	line-height: 1.8em;
+		 	color: $pri-light-color;
+		}
+	} 
+}
 
 /* Primary color button styling */
 
@@ -213,22 +214,22 @@ div.devise {
 	border: 1px solid black;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-}
 
-#collect_nav ul {
-	margin-right: 20px;
-	margin-left: 80px;
-	padding: 0;
-	list-style: none;
-	display: inline;
-	clear: both;
+	ul {
+		margin-right: 20px;
+		margin-left: 80px;
+		padding: 0;
+		list-style: none;
+		display: inline;
+		clear: both;
+	
+		li {
+		 	display: inline;
+		 	line-height: 1.8em;
+		 	color: $pri-light-color;
+		}
+	}
 }
-
-#collect_nav ul li {
- 	display: inline;
- 	line-height: 1.8em;
- 	color: $pri-light-color;
- }
 
 /*left side collections list*/
 // *****************************************
@@ -240,33 +241,31 @@ div.collect_list {
 
 .collect_list {
 	margin-left: 10px;
-}
 
-.collect_list p {
-	font-size: 1.4em;
-	margin-left: 10px;
-	color: $sec-dark-color;
-}
+	p {
+		font-size: 1.4em;
+		margin-left: 10px;
+		color: $sec-darkest-color;
+	}
 
-.collect_list ul {
-	margin-right: 20px;
-	padding: 0;
-	margin-left: 10px;
-	list-style: none;
-	display: block;
-}
+	ul {
+		margin-right: 20px;
+		padding: 0;
+		margin-left: 10px;
+		list-style: none;
+		display: block;
 
-.collect_list ul li {
-	margin-left: 10px;
-	font-size: 1.2em;
-	font-style: italic;
- 	display: inline;
- 	line-height: 1.8em;
- 	color: $sec-darkest-color;
- }
+		li {
+			margin-left: 10px;
+			font-size: 1.2em;
+			font-style: italic;
+		 	display: inline;
+		 	line-height: 1.8em;
+		 	color: $sec-darkest-color;
+		 }
+	}
 
-.collect_list label {
-	color: #596900;
+	label { color: #596900;}
 }
 
 /* blocking for authors and books */
@@ -346,13 +345,18 @@ p.heading {
  	color: #596900;
  }
 
-.authors input {
+.authors input, .collection_edit input {
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
 	width: 240px;
 	padding: 3px 5px 3px 5px;
-	border-radius: 5px;
+	background-color: $sec-lightest-color;
+	color: $sec-dark-color;
+}
+
+.actions input {
+	border-radius: 8px;	
 	background-color: $sec-dark-color;
 	color: $sec-lightest-color;
 }
@@ -419,6 +423,11 @@ div.screen {
 
 div.screen2 {
 	background-color: $sec-light-back;
+}
+
+// Edit Collections
+.field label {
+	color: $sec-darkest-color;
 }
 
 
