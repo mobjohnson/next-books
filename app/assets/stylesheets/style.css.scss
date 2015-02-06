@@ -273,7 +273,7 @@ div.advert {
 	width: 35%;
 }
 
-div.advert2 {
+div.advert_2 {
 	float: left;
 	width: 35%;
 }
@@ -338,7 +338,7 @@ p.heading {
  	color: #596900;
  }
 
-.authors a:link, #authors a:visited{
+.authors a:link, .authors a:visited{
 	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
@@ -348,7 +348,7 @@ p.heading {
 	border-radius: 8px;
 }
 
-.authors a:hover, #authors a:active {
+.authors a:hover, .authors a:active {
 	font-size: .6em;
 	font-weight: bold;
 	text-decoration: none;
@@ -410,14 +410,14 @@ td {
 /* Advertisement */
 
 div.advertisement {
-	height: 280px;
+	height: 240px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: image-url('BDalton.png');
+	background-image: image-url('borders.png');
 }
 
 div.advertisement2 {
-	height: 280px;
+	height: 250px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: image-url('BDalton.png');
