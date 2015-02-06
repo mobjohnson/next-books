@@ -91,8 +91,8 @@ section {
  	color: $pri-light-color;
  }
 
-#sign ul li a:link, #sign ul li a:visited{
-	font-size: .75em;
+.pri a:link, a:visited{
+font-size: .75em;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
@@ -101,7 +101,7 @@ section {
 	border-radius: 8px;
 }
 
-#sign ul li a:hover, #sign ul li a:active {
+.pri a:hover, a:active {
 	font-size: 10pt;
 	font-weight: bold;
 	text-decoration: none;
@@ -109,7 +109,30 @@ section {
 	background-color: $pri-darkest-color;
 	color: $pri-light-color;
 	border-radius: 8px;
+
 }
+
+
+
+// #sign ul li a:link, #sign ul li a:visited{
+// 	font-size: .75em;
+// 	font-weight: bold;
+// 	text-decoration: none;
+// 	padding: 7px 10px 7px 10px;
+// 	background-color: $pri-light-color;
+// 	color: $pri-darkest-color;
+// 	border-radius: 8px;
+// }
+
+// #sign ul li a:hover, #sign ul li a:active {
+// 	font-size: 10pt;
+// 	font-weight: bold;
+// 	text-decoration: none;
+// 	padding: 7px 10px 7px 10px;
+// 	background-color: $pri-darkest-color;
+// 	color: $pri-light-color;
+// 	border-radius: 8px;
+// }
 
 /* Header */
 
@@ -203,31 +226,31 @@ div.devise {
  	color: $pri-light-color;
  }
 
-#collect_nav ul li a:link, #collect_nav ul li a:visited{
-	font-size: .75em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 7px 10px 7px 10px;
-	background-color: $pri-light-color;
-	color: $pri-darkest-color;
-	border-radius: 8px;
-}
+// #collect_nav ul li a:link, #collect_nav ul li a:visited{
+// 	font-size: .75em;
+// 	font-weight: bold;
+// 	text-decoration: none;
+// 	padding: 7px 10px 7px 10px;
+// 	background-color: $pri-light-color;
+// 	color: $pri-darkest-color;
+// 	border-radius: 8px;
+// }
 
-#collect_nav ul li a:hover, #collect_nav ul li a:active {
-	font-size: .75em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 7px 10px 7px 10px;
-	background-color: $pri-darkest-color;
-	color: $pri-light-color;
-	border-radius: 8px;
-}
+// #collect_nav ul li a:hover, #collect_nav ul li a:active {
+// 	font-size: .75em;
+// 	font-weight: bold;
+// 	text-decoration: none;
+// 	padding: 7px 10px 7px 10px;
+// 	background-color: $pri-darkest-color;
+// 	color: $pri-light-color;
+// 	border-radius: 8px;
+// }
 
 /*left side collections list*/
 // *****************************************
 
 div.collect_list {
-	width: 20%;
+	width: 30%;
 	background-color: $sec-lightest-back;
 }
 
@@ -259,7 +282,7 @@ div.collect_list {
  	color: $sec-darkest-color;
  }
 
-.collect_list ul li a:link, .collect_list ul li a:visited{
+.collect_list a:link, .collect_list a:visited{
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
@@ -269,7 +292,7 @@ div.collect_list {
 	border-radius: 8px;
 }
 
-.collect_list ul li a:hover, .collect_list ul li a:active {
+.collect_list a:hover, .collect_list a:active {
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
@@ -317,11 +340,6 @@ div.advert_2 {
 	float: left;
 	width: 35%;
 }
-
-// div#advert2 {
-// 	float: left;
-// 	width: 35%;
-// }
 
 div.collection_form {
 	float: left;

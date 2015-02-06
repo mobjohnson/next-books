@@ -18,7 +18,7 @@
 				<p class="notice"><%= notice %></p>
 		  	<p class="alert"><%= alert %></p>
 		  </div>
-			<nav id='sign'>
+			<nav class='pri' id='sign'>
 				<ul>
 					<% if user_signed_in? %>
 						<li><%= link_to('Sign out', destroy_user_session_path, method: :delete) %></li>
@@ -30,7 +30,7 @@
 			</nav>
 		</article>
 		<div id='wrapper'>
-			<div id='collect_nav'>
+			<div class='pri' id='collect_nav'>
 				<ul>
 					<li><%= link_to 'Collections', collections_path  %></li>
 					<li><%= link_to 'Create a Collection', new_collection_path %></li>
