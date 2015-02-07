@@ -86,14 +86,11 @@ footer {
 	border: 1px solid black;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-
 	ul {
 		margin-left: 20px;
 		padding: 0;
 		list-style: none;
 		display: inline;
-	
-
 		li {
 		 	display: inline;
 		 	line-height: 1.8em;
@@ -104,56 +101,48 @@ footer {
 
 /* Primary color button styling */
 
-.pri a:link, a:visited{
-font-size: .75em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 7px 10px 7px 10px;
-	background-color: $pri-light-color;
-	color: $pri-darkest-color;
-	border-radius: 8px;
-}
-
-.pri a:hover, a:active {
-	font-size: 10pt;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 7px 10px 7px 10px;
-	background-color: $pri-darkest-color;
-	color: $pri-light-color;
-	border-radius: 8px;
+.pri {
+	a {
+		font-size: .75em;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 7px 10px 7px 10px;
+		border-radius: 8px;
+	}	
+	a:link, a:visited{	
+		background-color: $pri-light-color;
+		color: $pri-darkest-color;	
+	}
+	a:hover, a:active {
+		background-color: $pri-darkest-color;
+		color: $pri-light-color;
+	}
 }
 
 /* Secondary color button  and input styling */
 
-.sec a:link, .sec a:visited{
-	font-size: .8em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 3px 5px 3px 5px;
-	background-color: $sec-dark-color;
-	color: $sec-lightest-color;
-	border-radius: 8px;
-}
-
-.sec a:hover, .sec a:active {
-	font-size: .8em;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 3px 5px 3px 5px;
-	background-color: $sec-lightest-color;
-	color: $sec-dark-color;
-	border-radius: 8px;
-}
-
-.sec input {
-	font-size: .8em;
-	font-weight: bold;
-	text-decoration: none;
-	width: 300px;
-	padding: 3px 5px 3px 5px;
-	background-color: #b9c37f;
-	color: #596900;
+.sec {
+	a {
+		font-size: .8em;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 3px 5px 3px 5px;
+		border-radius: 8px;
+	}
+	a:link, .sec a:visited{
+		background-color: $sec-dark-color;
+		color: $sec-lightest-color;
+	}
+	.sec a:hover, .sec a:active {
+		background-color: $sec-lightest-color;
+		color: $sec-dark-color;
+	}
+	.sec input {
+		text-decoration: none;
+		width: 300px;
+		background-color: #b9c37f;
+		color: #596900;
+	}
 }
 
 /* Header */
@@ -194,7 +183,6 @@ div.devise {
 #wrapper {
 	width: 100%;
 	float: left;
-	// padding-left: 250px;
 	overflow: hidden;
 	clear: both;
 }
@@ -238,20 +226,17 @@ div.collect_list {
 
 .collect_list {
 	margin-left: 10px;
-
 	p {
 		font-size: 1.4em;
 		margin-left: 10px;
 		color: $sec-darkest-color;
 	}
-
 	ul {
 		margin-right: 20px;
 		padding: 0;
 		margin-left: 10px;
 		list-style: none;
 		display: block;
-
 		li {
 			margin-left: 10px;
 			font-size: 1.2em;
@@ -261,7 +246,6 @@ div.collect_list {
 		 	color: $sec-darkest-color;
 		 }
 	}
-
 	label { color: #596900;}
 }
 
@@ -327,20 +311,21 @@ p.heading {
 	padding: 10px;
 }
 
-.authors ul {
-	margin-right: 20px;
-	padding: 0;
-	list-style: none;
-	display: inline;
+.authors {
+	ul {
+		margin-right: 20px;
+		padding: 0;
+		list-style: none;
+		display: inline;
+		li {
+			font-size: .8em;
+			font-style: italic;
+		 	display: inline;
+		 	line-height: 1.8em;
+		 	color: #596900;
+		 }
+	}
 }
-
-.authors ul li {
-	font-size: .8em;
-	font-style: italic;
- 	display: inline;
- 	line-height: 1.8em;
- 	color: #596900;
- }
 
 .authors input, .collection_edit input, collection_form input {
 	font-size: .8em;
@@ -351,6 +336,7 @@ p.heading {
 	background-color: $sec-lightest-color;
 	color: $sec-dark-color;
 }
+
 
 .actions input {
 	border-radius: 8px;	
@@ -435,20 +421,17 @@ div.book_edit {
 
 .book_edit {
 	margin-left: 10px;
-
 	p {
 		font-size: 1.4em;
 		margin-left: 10px;
 		color: $sec-darkest-color;
 	}
-
 	ul {
 		margin-right: 20px;
 		padding: 0;
 		margin-left: 10px;
 		list-style: none;
 		display: block;
-
 		li {
 			margin-left: 10px;
 			font-size: 1.2em;
@@ -456,21 +439,17 @@ div.book_edit {
 		 	display: inline;
 		 	line-height: 1.8em;
 		 	color: $sec-darkest-color;
-
 			input {
 				width: 10px;
 			}
-
 			.actions input {
 				width: 240px;
 				border-radius: 8px;	
 				background-color: $sec-dark-color;
 				color: $sec-lightest-color;
 			}
-
 		}
 	}
-
 	label { 
 		font-size: 0.8em;
 		color: $sec-darkest-color;
