@@ -1,5 +1,4 @@
 // Primary colors
-
 $pri-base-color:     #A7383D;
 $pri-lightest-color: #FBA7AB;
 $pri-light-color:    #D1686E;
@@ -19,7 +18,6 @@ $sec-base-back:  	   rgba(170,106,57,0.75);
 $sec-lightest-back:  rgba(255,207,170,0.75);
 $sec-light-back:     rgba(212,152,106,0.75);
 
-
 // Third colors - now Purple
 $thi-base-color:     rgba(134,45,99,1.0);
 $thi-lightest-color: rgba(201,134,175,1.0);
@@ -27,7 +25,6 @@ $thi-light-color:		 rgba(167,84,134,1.0);
 $thi-dark-color:		 rgba(100,17,67,1.0);
 $thi-darkest-color:  rgba(67,0,47,1.0);
 $thi-lightest-back:  rgba(201,134,175,0.9);
-
 
 // 
 // Overall structure
@@ -127,7 +124,7 @@ font-size: .75em;
 	border-radius: 8px;
 }
 
-/* Secondary color styling */
+/* Secondary color button  and input styling */
 
 .sec a:link, .sec a:visited{
 	font-size: .8em;
@@ -268,8 +265,8 @@ div.collect_list {
 	label { color: #596900;}
 }
 
-/* blocking for authors and books */
-// *******************************************
+// blocking for authors and books */
+//
 
 div.author_form {
 	float: left;
@@ -302,8 +299,8 @@ div.collection_form {
 	clear: left;
 }
 
-/*authors listing*/
-// *************************************
+// Authors listing
+//
 
 .authors {
 	clear: both;
@@ -345,7 +342,7 @@ p.heading {
  	color: #596900;
  }
 
-.authors input, .collection_edit input {
+.authors input, .collection_edit input, collection_form input {
 	font-size: .8em;
 	font-weight: bold;
 	text-decoration: none;
@@ -429,5 +426,56 @@ div.screen2 {
 .field label {
 	color: $sec-darkest-color;
 }
+
+// Edit Books
+div.book_edit {
+	width: 60%;
+	background-color: $sec-lightest-back;
+}
+
+.book_edit {
+	margin-left: 10px;
+
+	p {
+		font-size: 1.4em;
+		margin-left: 10px;
+		color: $sec-darkest-color;
+	}
+
+	ul {
+		margin-right: 20px;
+		padding: 0;
+		margin-left: 10px;
+		list-style: none;
+		display: block;
+
+		li {
+			margin-left: 10px;
+			font-size: 1.2em;
+			font-style: italic;
+		 	display: inline;
+		 	line-height: 1.8em;
+		 	color: $sec-darkest-color;
+
+			input {
+				width: 10px;
+			}
+
+			.actions input {
+				width: 240px;
+				border-radius: 8px;	
+				background-color: $sec-dark-color;
+				color: $sec-lightest-color;
+			}
+
+		}
+	}
+
+	label { 
+		font-size: 0.8em;
+		color: $sec-darkest-color;
+	}
+}
+
 
 

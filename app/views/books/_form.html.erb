@@ -1,19 +1,16 @@
 <!-- Form to edit the Status of a Book -->
-<div class='screen'>
-	Title: <%= @book.title %>;
-	Year: <%= @book.date %>;
-	Status: <%= @book.status %>
+<div>
+	<p><%= @book.title %></p>
+	<p>Year: <%= @book.date %></p>
+	<p>Status: <%= @book.status %></p>
 	<%= form_for [@collection, @author, @book] do |f| %>
-		<p>
-
-			<%= radio_button_tag(:status, "read") %>
-			<%= label_tag(:status_read, "I have Read this book") %>
-			<%= radio_button_tag(:status, "not read") %>
-			<%= label_tag(:status_not_read, "I have not Read this book") %>
-			<%= radio_button_tag(:status, "skip") %>
-			<%= label_tag(:status_skip, "I will skip this book") %>
-		</p>
-		<p>
+		<p><%= radio_button_tag(:status, "read") %>
+		<%= label_tag(:status_read, "I have Read this book") %></p>
+		<p><%= radio_button_tag(:status, "not read") %>
+		<%= label_tag(:status_not_read, "I have not Read this book") %></p>
+		<p><%= radio_button_tag(:status, "skip") %>
+		<%= label_tag(:status_skip, "I will skip this book") %></p>
+		<p class='actions'>
 			<%= f.submit 'Submit Status' %>
 		</p>
 	<% end %>	
