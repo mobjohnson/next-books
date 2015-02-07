@@ -286,13 +286,6 @@ div.advert {
 	clear: left;
 }
 
-div.advert_2 {
-	display: block;
-	float: left;
-	width: 35%;
-	clear: left;
-}
-
 div.collection_form {
 	float: left;
 	width: 35%;
@@ -405,6 +398,11 @@ div.advertisement {
 	background-position: center;
 	background-image: image-url('borders.png');
 	clear: both;
+}
+
+div.break {
+	height: 50px;
+	background-color: $thi-lightest-back
 }
 
 div.advertisement2 {
