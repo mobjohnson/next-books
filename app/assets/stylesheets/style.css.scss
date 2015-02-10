@@ -271,6 +271,7 @@ div.collect_list {
 div.author_form {
 	float: left;
 	width: 35%;
+	clear: both;
 }
 
 div.books {
@@ -283,7 +284,7 @@ div.advert {
 	display: block;
 	float: left;
 	width: 35%;
-	clear: both;
+	clear: left;
 }
 
 div.collection_form {
