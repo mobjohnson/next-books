@@ -8,7 +8,7 @@
 		               data: { confirm: 'Are you sure?' } %>
 		</p>
 		<div class='recommend'>
-			<h3>The Next Book you should read by this author:</h3>
+			<h3>This author's next book:</h3>
 
 			<!-- The find_book method makes Book recommendation based upon earliest date with proper status  -->
 			<h4><%= Author.find_book(author).title %></h4>
