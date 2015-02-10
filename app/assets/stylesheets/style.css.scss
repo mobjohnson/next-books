@@ -46,13 +46,6 @@ header {
 	color: $pri-lightest-color;
 }
 
-section {
-	width: 100%;
-	min-height: 580px;
-	float: left;
-	clear: left;
-}
-
 footer {
 	position: relative;
 	clear: both;
@@ -155,6 +148,8 @@ h1 {
 
 h4 {
 	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0;
 }
 
 /* Devise */
@@ -201,6 +196,61 @@ div.devise {
 	float: left;
 	overflow: hidden;
 	clear: both;
+}
+
+div.books {
+	background-color: $sec-lightest-back;
+}
+
+div.advert {
+	background-color: $thi-dark-color;
+}
+
+
+// Structure inside body for authors and books */
+//
+
+/* Medium styles */
+
+@media screen and (min-width: 525px) and (max-width: 759px) and (min-device-width: 759px){
+
+
+}
+
+/* Large styles */
+@media screen and (min-width: 760px) and (min-device-width: 980px){
+
+	section {
+		width: 100%;
+		min-height: 580px;
+		float: left;
+		clear: left;
+	}
+
+	div.author_form {
+		float: left;
+		width: 35%;
+		clear: both;
+	}
+
+	div.books {
+		float: right;
+		width: 65%;
+		background-color: $sec-lightest-back;
+	}
+
+	div.advert {
+		display: block;
+		float: left;
+		width: 35%;
+		clear: left;
+	}
+
+	div.collection_form {
+		float: left;
+		width: 35%;
+		clear: left;
+	}
 }
 
 /*left side menu for collections*/
@@ -263,34 +313,6 @@ div.collect_list {
 		 }
 	}
 	label { color: #596900;}
-}
-
-// blocking for authors and books */
-//
-
-div.author_form {
-	float: left;
-	width: 35%;
-	clear: both;
-}
-
-div.books {
-	float: right;
-	width: 65%;
-	background-color: $sec-lightest-back;
-}
-
-div.advert {
-	display: block;
-	float: left;
-	width: 35%;
-	clear: left;
-}
-
-div.collection_form {
-	float: left;
-	width: 35%;
-	clear: left;
 }
 
 // Authors listing
@@ -476,6 +498,10 @@ div.book_edit {
 		color: $sec-darkest-color;
 	}
 }
+
+
+
+
 
 
 
