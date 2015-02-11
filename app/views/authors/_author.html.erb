@@ -2,7 +2,8 @@
 	<div class='author_form screen2'>
 
 		<!-- Shows each Author in the Collection -->
-		<p>Author Name: <%= author.name %></p> 
+		<p>Author's Name: </p>
+		<h3><%= author.name %></h3> 
 		<p>  <%= link_to 'Remove Author from Collection', [author.collection, author],
 		               method: :delete,
 		               data: { confirm: 'Are you sure?' } %>
